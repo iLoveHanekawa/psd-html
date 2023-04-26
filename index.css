@@ -19,15 +19,16 @@ body {
     background-color: #191919;
     /* todo: delete */
     border-bottom: 1px solid white;
-    height: 2.5rem;
+    height: calc(0.8 * 2.5rem);
     grid-column: 1 / 4;
 }
 
 .top-nav-items {
     grid-column: 2 / 3;
-    height: 2.5rem;
+    height: inherit;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-nav-left {
