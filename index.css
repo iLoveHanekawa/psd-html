@@ -40,12 +40,17 @@ body {
     height: inherit;
     align-items: center;
     justify-content: flex-start;
-    color: #707070;
 }
 
 .top-nav-icon {
+    color: #707070;
     cursor: pointer;
-    /* background-color: lightblue; */
+    margin-bottom: 0.07px;
+    transition: color 500ms;
+}
+
+.top-nav-icon:hover {
+    color: white;
 }
 
 /* TOP NAVIGATION BAR */
