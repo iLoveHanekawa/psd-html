@@ -4,17 +4,16 @@ body {
     box-sizing: border-box;
 }
 
+/* COMMON 3-COLUMN GRID */
+
 .layout-grid {
     grid-template-columns: calc(0.1953125 * 100vw) calc(0.609375 * 100vw) calc(0.1953125 * 100vw);
     display: grid;
 }
 
-.center {
-    background-color: lightgray;
-    opacity: 0.5;
-    grid-column: 2 / 3;
-    height: 100vh;
-}
+/* COMMON 3-COLUMN GRID */
+
+/* TOP NAVIGATION BAR */
 
 .top-nav {
     background-color: #191919;
@@ -27,4 +26,30 @@ body {
 .top-nav-items {
     grid-column: 2 / 3;
     height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
 }
+
+.top-nav-left {
+    display: flex;
+    gap: calc(0.8 * 0.938rem);
+    height: inherit;
+    align-items: center;
+    justify-content: flex-start;
+    color: #707070;
+}
+
+.top-nav-icon {
+    color: aliceblue;
+    /* background-color: lightblue; */
+}
+
+/* TOP NAVIGATION BAR */
+
+.center {
+    background-color: lightgray;
+    opacity: 0.5;
+    grid-column: 2 / 3;
+    height: 100vh;
+}
+
