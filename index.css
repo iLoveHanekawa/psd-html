@@ -4,12 +4,12 @@ body {
     box-sizing: border-box;
 }
 
-.main-grid-container {
-    display: grid;
+.layout-grid {
     grid-template-columns: calc(0.1953125 * 100vw) calc(0.609375 * 100vw) calc(0.1953125 * 100vw);
+    display: grid;
 }
 
-.main-grid-item {
+.center {
     background-color: lightgray;
     opacity: 0.5;
     grid-column: 2 / 3;
@@ -17,9 +17,14 @@ body {
 }
 
 .top-nav {
-    opacity: 0.5;
-    background-color: lightgray;
+    background-color: #191919;
+    /* todo: delete */
     border-bottom: 1px solid white;
     height: 2.5rem;
     grid-column: 1 / 4;
+}
+
+.top-nav-items {
+    grid-column: 2 / 3;
+    height: 2.5rem;
 }
