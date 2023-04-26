@@ -1,5 +1,21 @@
+:root {
+    --f: 100vw / 1920; 
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: calc(var(--f) * 375) calc(var(--f) * 1170) calc(var(--f)  * 375);
+    height: 100vh;
+    gap: 1px;
+}
+
+.main-grid-item {
+    background-color: lightgray;
+    opacity: 0.5;
 }
