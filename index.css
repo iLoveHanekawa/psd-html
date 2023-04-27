@@ -93,12 +93,13 @@ a {
 
 /* TOP NAVIGATION BAR */
 
-.center {
-    background-color: lightgray;
-    opacity: 0.5;
-    grid-column: 2 / 3;
-    height: 100vh;
-    width: 1170px;
+.hero {
+    background-image: url("images/hero.png");
+    background-repeat: no-repeat;
+    background-position: -110px 0px;
+    display: flex;
+    height: 800px;
+    width: 100vw;
 }
 
 .material-icons.custom-font { font-size: 18px; }
