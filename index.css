@@ -23,6 +23,9 @@ body {
     width: 100vw;
     height: 40px;
     background-color: #191919;
+    width: 100vw;
+    height: 40px;
+    background-color: #191919;
 }
 
 .top-nav-items {
@@ -47,6 +50,10 @@ body {
     height: inherit;
     align-items: center;
     justify-content: flex-start;
+}
+
+.top-nav-right {
+    color: white;
 }
 
 .top-nav-icon {
