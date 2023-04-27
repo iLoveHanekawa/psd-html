@@ -6,7 +6,7 @@ body {
 
 /* FLEX CONTAINER */
 
-.vert-flex {
+.custom-flex-y {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,12 +18,11 @@ body {
 /* TOP NAVIGATION BAR */
 
 .top-nav {
-    background-color: #191919;
-    border-bottom: 1px solid white;
-    width: 100vw;
-    height: 40px;
     display: flex;
     justify-content: center;
+    width: 100vw;
+    height: 40px;
+    background-color: #191919;
 }
 
 .top-nav-items {
@@ -36,7 +35,15 @@ body {
 
 .top-nav-left {
     display: flex;
-    gap: calc(0.8 * 0.938rem);
+    gap: 14.33px;
+    height: inherit;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.top-nav-right {
+    color: #707070;
+    display: flex;
     height: inherit;
     align-items: center;
     justify-content: flex-start;
@@ -46,7 +53,8 @@ body {
     color: #707070;
     cursor: pointer;
     margin-bottom: 0.07px;
-    transition: color 500ms;
+    transition: color 300ms ease-in-out;
+    font-size: 1rem;
 }
 
 .top-nav-icon:hover {
@@ -62,4 +70,3 @@ body {
     height: 100vh;
     width: 1170px;
 }
-
