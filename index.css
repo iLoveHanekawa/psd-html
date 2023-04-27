@@ -126,9 +126,6 @@ button {
     color: white;
     display: flex;
     align-items: center;
-    /* delete this */
-    /* background-color: #707070;
-    opacity: 0.5; */
 }
 
 .hero-nav-center {
@@ -170,22 +167,18 @@ button {
     align-items: center;
 }
 
-.hero-icon-right-border {
+.custom-hero-icon {
     border-right: 0.5px solid white;
-    padding-right: 11.5px;
-    padding-top: 2.35px;
-    padding-bottom: 2.35px;
+    padding: 2.35px 11.5px;
 }
 
-.hero-icon-left-border {
-    border-left: 0.5px solid white;
-    padding-left: 11.5px;
-    padding-top: 2.35px;
-    padding-bottom: 2.35px;
+.custom-cart-icon {
+    padding: 2.35px 0px 2.35px 11.5px;
+
 }
 
-.material-icons-outlined.custom-hero-icon-font { font-size: 24px; }
-.material-icons.custom-hero-icon-font { font-size: 24; }
+.material-icons-outlined.hero-icon-font { font-size: 24px; }
+.material-icons.hero-icon-font { font-size: 24; }
 
 
 
