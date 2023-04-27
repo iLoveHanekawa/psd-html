@@ -6,7 +6,7 @@ body {
 
 /* FLEX CONTAINER */
 
-.vert-flex {
+.custom-flex-y {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,10 @@ body {
     justify-content: flex-start;
 }
 
+.top-nav-right {
+    color: white;
+}
+
 .top-nav-icon {
     color: #707070;
     cursor: pointer;
@@ -62,4 +66,3 @@ body {
     height: 100vh;
     width: 1170px;
 }
-
