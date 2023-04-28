@@ -122,7 +122,6 @@ button {
 .hero-nav-container {
     height: 66px;
     width: 1176px;
-    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -130,7 +129,6 @@ button {
 
 .hero-nav-center {
     margin-left: 106px;
-    background-color: gray;
     height: inherit;
     display: flex;
     align-items: center;
@@ -141,7 +139,6 @@ button {
     /* font-stretch: ultra-expanded; */
     padding-top: 9px; 
     padding-left: 14px;
-    background-color: purple;
     border-bottom: 4px solid transparent;
     justify-content: flex-end;
     gap: 3px;
