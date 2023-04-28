@@ -1,4 +1,4 @@
-/* 2.25px */
+/* 250 -89 */
 
 body {
     margin: 0;
@@ -112,7 +112,7 @@ button {
 .hero {
     background-image: url("images/hero.png");
     background-repeat: no-repeat;
-    background-position: -110px 0px;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,72 +122,71 @@ button {
 
 .hero-nav-container {
     height: 66px;
-    width: inherit;
-    width: 1170px;
+    width: 1176px;
     color: white;
     display: flex;
     align-items: center;
 }
 
 .hero-nav-center {
-    margin-left: 111.35px;
+    background-color: black;
+    margin-left: 106px;
     height: inherit;
     display: flex;
-    padding-top: 1px;
     align-items: center;
-    gap: 9.8px;
-    /* delete this */
-    /* background-color: black; */
+    gap: 9px;
 }
 
 .hero-nav-center-button {
+    /* font-stretch: ultra-expanded; */
     padding-top: 5px; 
     padding-left: 14px;
     justify-content: flex-end;
-    gap: 5.5px;
-    /* letter-spacing: 0.5px; */
-    font-size: 15px;
+    gap: 3px;
+    letter-spacing: 1px;
+    font-size: 14px;
     height: inherit;
     font-weight: 700;
     display: flex;
     align-items: center;
-    /* box-shadow: 0px 4px 0px transparent;
-    transition: box-shadow 300ms ease-in-out; */
-}
-
-.hero-nav-center-button.home {
-    box-shadow: 0px 3.5px 0px #ff4081;
 }
 
 .hero-icon-container {
-    padding-left: 7px;
+    padding: 6.7px 5px 0px 7px;
     display: flex;
-    padding-top: 6.7px;
     justify-content: end;
-    padding-right: 16px;
     width: 100%;
     align-items: center;
 }
 
+.hero-nav-center-button.home {
+    box-shadow: 0px 3.5px 0px #ff4081;
+    padding-left: 16px;
+}
+
+.material-icons.hero-expand-icon { font-size: 20px; padding-bottom: 1px; }
+
 .custom-hero-icon {
+    padding: 2.35px 12.5px;
+}
+
+.custom-hero-icon.heart {
+    border-left: 0.5px solid white;
     border-right: 0.5px solid white;
-    padding: 2.35px 11.5px;
+    padding: 2.35px 11px;
 }
 
-.custom-cart-icon {
-    padding: 2.35px 0px 2.35px 11.5px;
-
-}
 
 .material-icons-outlined.hero-icon-font { font-size: 24px; }
-.material-icons.hero-icon-font { font-size: 24; }
-
-
+.material-icons.hero-icon-font { font-size: 24px; }
 
 .pasco-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 1px;
+    /* background-color: red; */
 }
 
 /* HERO */
