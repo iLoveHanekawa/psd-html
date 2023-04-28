@@ -46,7 +46,7 @@ button {
 .top-nav-items {
     height: inherit;
     display: flex;
-    width: 1170px;
+    width: 1176px;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,7 +67,7 @@ button {
     height: inherit;
     align-items: center;
     justify-content: flex-start;
-    margin-left: -0.5px;
+    padding-left: 3px;
 }
 
 
@@ -99,7 +99,6 @@ button {
 .lang {
     border-left: 0.7px solid #707070;
     padding: 1px 0px 1.5px 13.5px;
-    margin-right: -3px;
 }
 
 .material-icons.custom-font { font-size: 18px; }
@@ -129,7 +128,6 @@ button {
 }
 
 .hero-nav-center {
-    background-color: black;
     margin-left: 106px;
     height: inherit;
     display: flex;
