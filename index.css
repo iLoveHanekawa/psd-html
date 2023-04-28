@@ -17,6 +17,7 @@ button {
     border: none;
     outline: none;
     padding: 0px;
+    cursor: pointer;
     margin: 0px;
 }
 
@@ -129,12 +130,12 @@ button {
 }
 
 .hero-nav-center {
-    margin-left: 111px;
+    margin-left: 111.35px;
     height: inherit;
     display: flex;
     padding-top: 1px;
     align-items: center;
-    gap: 8px;
+    gap: 9.8px;
     /* delete this */
     /* background-color: black; */
 }
@@ -143,17 +144,18 @@ button {
     padding-top: 5px; 
     padding-left: 14px;
     justify-content: flex-end;
-    gap: 8.25px;
+    gap: 5.5px;
+    /* letter-spacing: 0.5px; */
     font-size: 15px;
     height: inherit;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     align-items: center;
-    box-shadow: 0px 4px 0px transparent;
-    transition: box-shadow 300ms ease-in-out;
+    /* box-shadow: 0px 4px 0px transparent;
+    transition: box-shadow 300ms ease-in-out; */
 }
 
-.hero-nav-center-button:hover {
+.hero-nav-center-button.home {
     box-shadow: 0px 3.5px 0px #ff4081;
 }
 
