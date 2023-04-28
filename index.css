@@ -21,6 +21,10 @@ button {
     margin: 0px;
 }
 
+.custom-body-width {
+    width: 1176px;
+}
+
 /* FLEX CONTAINER */
 
 .custom-flex-y {
@@ -46,7 +50,6 @@ button {
 .top-nav-items {
     height: inherit;
     display: flex;
-    width: 1176px;
     justify-content: space-between;
     align-items: center;
 }
@@ -121,7 +124,6 @@ button {
 
 .hero-nav-container {
     height: 66px;
-    width: 1176px;
     color: white;
     display: flex;
     align-items: center;
