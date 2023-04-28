@@ -95,13 +95,9 @@ button {
 }
 
 .signin {
-    border-right: 0.7px solid #707070;
+    border-right: 2px solid #707070;
     padding: 1px 13.8px 1.5px 0;
-}
-
-.lang {
-    border-left: 0.7px solid #707070;
-    padding: 1px 0px 1.5px 13.5px;
+    margin-right: 13.5px;
 }
 
 .material-icons.custom-font { font-size: 18px; }
