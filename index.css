@@ -206,7 +206,6 @@ pre {
     letter-spacing: 2px;
     font-weight: 700;
     padding-bottom: 1px;
-    /* background-color: red; */
 }
 
 .hero-main {
@@ -286,12 +285,33 @@ pre {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 5.5px;
+    padding-left: 5.3px;
     gap: 12px;
 }
 
 .hero-comments-likes {
-    margin-top: 40px;
+    letter-spacing: 0.5px;
+    margin-top: 16.5px;
+    display: flex;
+    margin-right: 6.5px;
+    padding-left: 0.5px;
+    font-size: 12px;
+    gap: 27.5px;
+}
+
+.hero-comments-likes-flex {
+    color: #bdbdbd;
+    display: flex;
+    gap: 5.8px;
+    align-items: center;
+}
+
+.material-icons-outlined.likes {
+    font-size: 17px;
+}
+
+.material-icons.comments {
+    font-size: 17px;
 }
 
 /* HERO */
