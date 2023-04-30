@@ -21,6 +21,21 @@ button {
     margin: 0px;
 }
 
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
+}
+
 .custom-body-width {
     width: 1176px;
 }
@@ -193,8 +208,9 @@ button {
 }
 
 .hero-main {
-    width: 811px;
-    padding-top: 217px;
+    font-family: 'Montserrat', sans-serif;
+    width: 830px;
+    padding-top: 220px;
     background-color: black;
     color: white;
     display: flex;
@@ -202,11 +218,32 @@ button {
     align-items: center;
 }
 
-.inspiration-text {
+.hero-main-inspiration {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    padding-left: 2px;
+    background-color: purple;
     font-weight: 400;
+}
+
+.hero-main-millennial-one {
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 9px;
+    background-color: red;
+    padding-top: 17px;
+}
+
+.hero-main-millennial-two {
+    letter-spacing: 1px;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: red;
+    text-align: center;
+    padding-left: 9px;
 }
 
 /* HERO */
