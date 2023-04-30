@@ -212,7 +212,7 @@ pre {
 .hero-main {
     font-family: 'Montserrat', sans-serif;
     width: 830px;
-    padding-top: 220px;
+    padding-top: 216px;
     background-color: black;
     color: white;
     display: flex;
@@ -221,10 +221,11 @@ pre {
 }
 
 .hero-main-inspiration {
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
     padding-left: 2px;
     font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .hero-main-millennial {
@@ -232,8 +233,23 @@ pre {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-top: 17px 0px 0px 9px;
+    padding: 14px 0px 1px 9px;
     text-align: center;
+}
+
+.hero-main-button {
+    background-color: #2f3f9f;
+    height: 44px;
+    width: 170px;
+    font-size: 18px;
+    padding-top: 12px;
+    margin-top: 28.5px;
+    padding-right: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 99999px;
 }
 
 /* HERO */
