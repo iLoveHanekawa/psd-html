@@ -213,7 +213,6 @@ pre {
     font-family: 'Montserrat', sans-serif;
     width: 830px;
     padding-top: 216px;
-    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -225,7 +224,7 @@ pre {
     font-weight: 400;
     padding-left: 2px;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.6px;
 }
 
 .hero-main-millennial {
@@ -249,7 +248,46 @@ pre {
     text-align: center;
     font-weight: 400;
     box-sizing: border-box;
+    cursor: pointer;
     border-radius: 99999px;
+}
+
+.hero-main-author {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding-right: 3px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.hero-author-img {
+    border-radius: 9999px;
+    height: 52px;
+    width: 52px;
+}
+
+.hero-author-name {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    padding-left: 2px;
+}
+
+.hero-author-date {
+    font-size: 12px;
+    margin-top: 9px;
+    color: #8d8c8d;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5.5px;
+    gap: 12px;
+    /* word-spacing: 0.08px; */
 }
 
 /* HERO */
