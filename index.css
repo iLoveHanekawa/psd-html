@@ -91,15 +91,15 @@ pre {
     height: inherit;
     align-items: center;
     justify-content: flex-start;
-    background-color: purple;
-    width: 14.679%;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    width: 15.879%;
 }
 
 
 .top-nav-right-flex {
     display: flex;
     align-items: center;
-    background-color: #333333;
     padding: 1px 0px 1.5px 0;
 }
 
@@ -115,18 +115,18 @@ pre {
     font-size: 12px;
     margin-left: 5.5px;
     font-weight: 600;
-}
+}       
 
 .signin {
     border-right: 2px solid #707070;
     padding-right: 13.8px;
-    margin-right: 7.5px;
 }
 
 .lang {
-    width: 37.68%;
-    padding-left: 13.4px;
+    width: 35.00%;
     overflow: hidden;
+    justify-self: flex-end;
+    margin-left: 13.8px;
 }
 
 .icon-wrapper {
