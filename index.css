@@ -3,8 +3,12 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     box-sizing: border-box;
+}
+
+span { 
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -39,26 +43,20 @@ pre {
     margin: 0;
 }
 
+.material-icon-wrapper {
+    background-color: #333333;
+    height: fit-content;
+}
+
 .custom-body-width {
     width: 1176px;
 }
-
-/* FLEX CONTAINER */
-
-.custom-flex-y {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* FLEX CONTAINER */
 
 /* TOP NAVIGATION BAR */
 
 .top-nav {
     display: flex;
     justify-content: center;
-    width: 100vw;
     color: #707070;
     height: 40px;
     background-color: #191919;
@@ -118,7 +116,7 @@ pre {
     margin-right: 13.5px;
 }
 
-.material-icons.custom-font { font-size: 18px; }
+.material-icons.custom-font { font-size: 18px; background-color: red; }
 .material-icons-outlined.custom-font { font-size: 18px; }
 
 /* TOP NAVIGATION BAR */
@@ -133,7 +131,6 @@ pre {
     flex-direction: column;
     align-items: center;
     height: 800px;
-    width: 100vw;
     position: relative;
 }
 
@@ -183,6 +180,7 @@ pre {
     display: flex;
     justify-content: end;
     width: 100%;
+    background-color: #333333;
     align-items: center;
 }
 
@@ -213,6 +211,7 @@ pre {
 
 .hero-main {
     font-family: 'Montserrat', sans-serif;
+    /* percent */
     width: 830px;
     padding-top: 216px;
     color: white;
@@ -241,6 +240,7 @@ pre {
 .hero-main-button {
     background-color: #2f3f9f;
     height: 44px;
+    /* percent */
     width: 170px;
     font-size: 18px;
     padding-top: 12px;
@@ -264,7 +264,7 @@ pre {
 }
 
 .hero-author-img {
-    border-radius: 9999px;
+    border-radius: 50%;
     height: 52px;
     width: 54px;
     object-position: center;
