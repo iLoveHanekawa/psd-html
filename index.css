@@ -343,21 +343,20 @@ h1, h3, pre {
 
 .blog-nav-label {
     color: #3f51b5;
-    letter-spacing: 0.5px;
     border-radius: 9999px;
     padding: 6.3px 29.5px;
+    font-size: 11px;
+    background-color: red;
     background-color: #f5f5f5;
-    font-weight: 500;
-    letter-spacing: 0;
+    font-weight: 400;
     color: black;
     border: 1px solid transparent;
-    transform: scaleX(0.945);
-    transition: border background-color color;
+    letter-spacing: 0.55px;
+    text-shadow: 0.3px 0.3px 0.45px black;
+    transition: border background-color color text-shadow;
     transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
-    font-kerning: none;
+    font-stretch: ultra-condensed;
 }
-
 
 .blog-nav-input {
     display: none;
@@ -366,6 +365,7 @@ h1, h3, pre {
 .blog-nav-input:checked + label {
     background-color: white;
     border: 1px solid #3f51b5;
+    text-shadow: 0.3px 0.3px 0.45px #3f51b5;
     color: #3f51b5;
 }
 
