@@ -213,7 +213,7 @@ pre {
 
 .hero-main {
     /* percent */
-    width: 72.65%;
+    width: 55.34%;
     padding-top: 216px;
     color: white;
     display: flex;
@@ -258,7 +258,6 @@ pre {
 .hero-main-author {
     display: flex;
     align-items: center;
-    background-color: purple;
     margin-top: 80px;
     padding-right: 3px;
     box-sizing: border-box;
