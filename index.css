@@ -3,7 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 a {
@@ -48,7 +49,6 @@ pre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
 }
 
 /* FLEX CONTAINER */
@@ -134,9 +134,12 @@ pre {
     align-items: center;
     height: 800px;
     width: 100vw;
+    position: relative;
 }
 
 .hero-nav-container {
+    position: sticky;
+    top: 0;
     height: 66px;
     color: white;
     display: flex;
