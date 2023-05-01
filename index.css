@@ -43,13 +43,9 @@ pre {
     margin: 0;
 }
 
-.material-icon-wrapper {
-    background-color: #333333;
-    height: fit-content;
-}
 
 .custom-body-width {
-    width: 1176px;
+    width: 1170px;
 }
 
 /* TOP NAVIGATION BAR */
@@ -73,10 +69,6 @@ pre {
     transition: color 300ms ease-in-out;
     font-size: 16px;
     margin-top: 3.25px;
-}
-
-.top-nav-icon:hover {
-    color: white;
 }
 
 .top-nav-left {
@@ -103,6 +95,13 @@ pre {
     padding-bottom: 1.5px;
 }
 
+.material-icon-wrapper {
+    background-color: #333333;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
 .top-nav-right-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -116,7 +115,7 @@ pre {
     margin-right: 13.5px;
 }
 
-.material-icons.custom-font { font-size: 18px; background-color: red; }
+.material-icons.custom-font { font-size: 18px; background-color: #27272A; }
 .material-icons-outlined.custom-font { font-size: 18px; }
 
 /* TOP NAVIGATION BAR */
@@ -137,6 +136,7 @@ pre {
 .hero-nav-container {
     position: sticky;
     top: 0;
+    font-family: 'Montserrat', sans-serif;
     height: 66px;
     color: white;
     display: flex;
