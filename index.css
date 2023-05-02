@@ -402,55 +402,37 @@ h1, h3, pre {
  
 .top {
     background-color: white;
-    height: 200px;
     grid-area: top;
 }
 
 .mid-top {
     background-color: white;
-    height: 200px;
-}
-
-.mid-top-one {
-    grid-area: mid-top-one;
-} 
-
-.mid-top-two {
-    grid-area: mid-top-two;
-} 
-
-.mid-top-three {
-    grid-area: mid-top-three;
 }
 
 .mid-bottom {
     background-color: white;
-    height: 200px;
 }
 
-.mid-bottom-one {
-    grid-area: mid-bottom-one;
-}
+.mid-top-one { grid-area: mid-top-one; } 
 
-.mid-bottom-two {
-    grid-area: mid-bottom-two;
-}
+.mid-top-two { grid-area: mid-top-two; } 
 
-.mid-bottom-three {
-    grid-area: mid-bottom-three;
-}
+.mid-top-three { grid-area: mid-top-three; }
+
+.mid-bottom-one { grid-area: mid-bottom-one; }
+
+.mid-bottom-two { grid-area: mid-bottom-two; }
+
+.mid-bottom-three { grid-area: mid-bottom-three; }
 
 .bottom {
     grid-area: bottom;
-    height: 200px;
     display: flex;
     gap: 20px;
 }
 
 .bottom-item {
-    display: flex;
     background-color: white;
-    height: 200px;
     width: 100%;
 }
 
