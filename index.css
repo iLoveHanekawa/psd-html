@@ -29,7 +29,7 @@ button {
     font-family: inherit;
 }
 
-h1, h3, pre {
+h1, h3, pre, figure {
     padding: 0;
     margin: 0;
     font-size: inherit;
@@ -431,7 +431,12 @@ h1, h3, pre {
     gap: 20px;
 }
 
-.bottom-item {
+.bottom-item-one {
+    background-color: white;
+    width: 100%;
+}
+
+.bottom-item-two {
     background-color: white;
     width: 100%;
 }
