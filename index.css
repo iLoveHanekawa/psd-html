@@ -382,15 +382,76 @@ h1, h3, pre {
 }
 
 .blog-article-container { 
-    background-color: white;
     width: 70%;
+    display: grid;
+    grid-template-areas: 
+       "top top top"
+       "mid-top-one mid-top-one mid-top-one"
+       "mid-top-two mid-top-two mid-top-two"
+       "mid-top-three mid-top-three mid-top-three"
+       "mid-bottom-one mid-bottom-two mid-bottom-three"
+       "bottom bottom bottom";
+    gap: 20px;
     /* delete this */
-    height: 2180px; 
 }
 
 .blog-aside {
     width: 26.58%;
     background-color: white;
+}
+ 
+.top {
+    background-color: white;
+    height: 200px;
+    grid-area: top;
+}
+
+.mid-top {
+    background-color: white;
+    height: 200px;
+}
+
+.mid-top-one {
+    grid-area: mid-top-one;
+} 
+
+.mid-top-two {
+    grid-area: mid-top-two;
+} 
+
+.mid-top-three {
+    grid-area: mid-top-three;
+}
+
+.mid-bottom {
+    background-color: white;
+    height: 200px;
+}
+
+.mid-bottom-one {
+    grid-area: mid-bottom-one;
+}
+
+.mid-bottom-two {
+    grid-area: mid-bottom-two;
+}
+
+.mid-bottom-three {
+    grid-area: mid-bottom-three;
+}
+
+.bottom {
+    grid-area: bottom;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-item {
+    display: flex;
+    background-color: white;
+    height: 200px;
+    width: 100%;
 }
 
 
