@@ -411,13 +411,19 @@ img {
 
 .top, .mid-bottom-one, .mid-bottom-two, .mid-bottom-three, .bottom-item-one, .bottom-item-two {
     background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 3px #e0e0e0;
 }
 
 .mid-top-one, .mid-top-two, .mid-top-three {
     background-color: white;
     display: flex;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #e0e0e0;
+    overflow: hidden;
 }
 
 .mid-bottom-one, .mid-bottom-two, .mid-bottom-three {
@@ -426,6 +432,9 @@ img {
 
 .top {
     grid-area: top;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #e0e0e0;
 }
 
 .mid-top-one { grid-area: mid-top-one; } 
@@ -449,11 +458,14 @@ img {
 .bottom-one, .bottom-two {
     background-color: white;
     width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px #e0e0e0;
 }
 
 
 .mid-top .blog-img-container {
-    width: 48.958%;
+    width: 52.259%;
 }
 
 /* Blog article image heights */
@@ -466,7 +478,11 @@ img {
     height: 300px;
 }
 
-.mid-top .blog-img-container, .mid-bottom .blog-img-container {
+.mid-top .blog-img-container {
+    height: 100%;
+} 
+
+.mid-bottom .blog-img-container {
     height: 160px;
 }
 
@@ -476,7 +492,6 @@ img {
     position: relative;
     color: white;
     font-size: 12px;
-    background-color: purple;
 }
 
 .blog-img-container::after {
@@ -499,9 +514,10 @@ img {
 .blog-text-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0px;
     word-spacing: 0px;
+    line-height: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -510,9 +526,10 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
+    line-height: 22px;
     word-spacing: 0px;
     padding-top: 4px;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
 }
 
@@ -571,6 +588,7 @@ img {
     font-weight: 700;
     letter-spacing: 0.5px;
     font-size: 14px;
+    padding-bottom: 9px;
     font-weight: 700;
 }
 
@@ -585,7 +603,8 @@ img {
     gap: 12px;
 }
 
+.blog-author-details {
+    padding-left: 10px;
+}
 
 /* Blog left */
-
-
