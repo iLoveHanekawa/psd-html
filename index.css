@@ -400,17 +400,19 @@ h1, h3, pre, figure {
     background-color: white;
 }
  
+.top, .mid-bottom-one, .mid-bottom-two, .mid-bottom-three, .bottom-item-one, .bottom-item-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-top-one, .mid-top-two, .mid-top-three {
+    background-color: white;
+    display: flex;
+}
+
 .top {
-    background-color: white;
     grid-area: top;
-}
-
-.mid-top {
-    background-color: white;
-}
-
-.mid-bottom {
-    background-color: white;
 }
 
 .mid-top-one { grid-area: mid-top-one; } 
@@ -425,18 +427,54 @@ h1, h3, pre, figure {
 
 .mid-bottom-three { grid-area: mid-bottom-three; }
 
+.mid-top-one > figure {
+    background-image: url('/images/2.png')
+}
+
+.mid-top-two > figure {
+    background-image: url('/images/3.png')
+}
+
+.mid-top-three > figure {
+    background-image: url('/images/4.png')
+}
+
+.mid-bottom-one > figure {
+    background-image: url('/images/5.png')
+}
+
+.mid-bottom-two > figure {
+    background-image: url('/images/6.png')
+}
+
+.mid-bottom-three > figure {
+    background-image: url('/images/7.png')
+}
+
+.bottom-one > figure {
+    background-image: url('/images/8.png')
+}
+
+.bottom-two > figure {
+    background-image: url('/images/9.png')
+}
+
+.top > figure {
+    background-image: url('/images/1.png')
+}
+
 .bottom {
     grid-area: bottom;
     display: flex;
     gap: 20px;
 }
 
-.bottom-item-one {
+.bottom-one {
     background-color: white;
     width: 100%;
 }
 
-.bottom-item-two {
+.bottom-two {
     background-color: white;
     width: 100%;
 }
