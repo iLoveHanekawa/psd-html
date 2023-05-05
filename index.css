@@ -560,14 +560,14 @@ img {
 
 .mid-bottom .blog-text-heading {
     font-size: 14px;
-    letter-spacing: 0.28px;
-    word-spacing: 0.3px;
-    padding: 11px 21px 7.25px 20.4px;
+    letter-spacing: 0.349px;
+    word-spacing: 0.430px;
+    padding: 11px 21px 7.25px 19.7px;
 }
 
 .mid-bottom .blog-text-body {
     font-size: 13.5px;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.735px;
     word-spacing: 0.75px;
     line-height: 21.15px;
     padding-bottom: 23.5px;
@@ -640,7 +640,7 @@ img {
 }
 
 .mid-bottom .blog-author-container {
-    padding: 15.55px 0px 15.55px 18.75px;
+    padding: 15.55px 0px 15.55px 18.1px;
 }
 
 /* Author */
@@ -652,7 +652,7 @@ img {
 
 .mid-bottom .material-icons-outlined.vert {
     align-self: flex-end;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .blog-img-container {
