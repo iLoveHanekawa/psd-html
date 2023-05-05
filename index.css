@@ -560,9 +560,10 @@ img {
 
 .mid-bottom .blog-text-heading {
     font-size: 14px;
-    letter-spacing: 0.349px;
+    letter-spacing: 0.351px;
     word-spacing: 0.44px;
     padding: 11px 21px 7.25px 19.7px;
+    font-stretch: ultra-condensed;
 }
 
 .mid-bottom .blog-text-body {
