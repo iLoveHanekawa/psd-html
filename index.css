@@ -561,7 +561,7 @@ img {
 .mid-bottom .blog-text-heading {
     font-size: 14px;
     letter-spacing: 0.349px;
-    word-spacing: 0.430px;
+    word-spacing: 0.44px;
     padding: 11px 21px 7.25px 19.7px;
 }
 
@@ -623,7 +623,7 @@ img {
 }
 
 .mid-top .blog-author-container {
-    padding: 9.720px 0px 9.720px 18.75px;
+    padding: 9.72px 0px 9.72px 18.75px;
 }
 
 .mid-top .blog-author-left {
@@ -652,7 +652,7 @@ img {
 
 .mid-bottom .material-icons-outlined.vert {
     align-self: flex-end;
-    margin-bottom: 5px;
+    margin-bottom: 5.5px;
 }
 
 .blog-img-container {
