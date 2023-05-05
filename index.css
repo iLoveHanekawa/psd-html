@@ -407,7 +407,7 @@ img {
        "mid-top-three mid-top-three mid-top-three"
        "mid-bottom-one mid-bottom-two mid-bottom-three"
        "bottom-flex bottom-flex bottom-flex";
-    gap: 20px;
+    gap: 20.85px;
     grid-template-columns: 31.7% 31.7% 31.7%;
 }
 
@@ -428,7 +428,7 @@ img {
 .bottom-flex {
     grid-area: bottom-flex;
     display: flex;
-    gap: 20px;
+    gap: 20.85px;
 }
 
 /* Grid styling */
@@ -446,8 +446,13 @@ img {
     box-shadow: 1px 1px 3px #e0e0e0;
 }
 
+.top {
+    height: 620px;
+}
+
 .mid-top {
     flex-direction: row;
+    height: 165.5px;
 }
 
 .mid-bottom {
@@ -468,7 +473,7 @@ img {
 
 .mid-top .blog-img-container {
     height: 100%;
-    width: 48.918%;
+    width: 55.534%;
 } 
 
 .mid-bottom .blog-img-container {
@@ -505,12 +510,16 @@ img {
 
 .mid-top .blog-text-heading {
     font-size: 16px;
-    padding: 13px 19px 17px 19px;
+    letter-spacing: 0.49px;
+    word-spacing: 0.27px;
+    padding: 7.28px 19px 5.8px 19px;
 }
 
 .mid-top .blog-text-body {
     font-size: 14px;
-    padding: 0px 19px 20px 19px;
+    letter-spacing: 0.51px;
+    line-height: 21.5px;
+    padding: 0px 19px 14.5px 18.5px;
 }
 
 .mid-bottom .blog-text-heading {
@@ -528,6 +537,11 @@ img {
 }
 
 /* Text */
+
+.material-icons-outlined.vert {
+    margin-bottom: 1px;
+    padding-right: 10.3px;
+}
 
 .blog-img-container {
     position: relative;
@@ -577,17 +591,18 @@ img {
 .material-icons-outlined.center-icon {
     position: absolute;
     top: 50%;
+    z-index: 1;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* Author */
+
 .blog-author-container {
-    padding-top: 19.5px;
+    padding: 19px 0px 19px 18.75px;
     font-family: 'Montserrat', sans-serif;
     border-top: 0.5px solid #e0e0e0;
-    padding-left: 18.75px;
     display: flex;
-    padding-bottom: 19.5px;
     justify-content: space-between;
     align-items: center;
 }
@@ -622,5 +637,24 @@ img {
     align-items: center;
     gap: 12px;
 }
+
+.mid-top .blog-author-container {
+    padding: 9.756px 0px 9.756px 18.75px;
+}
+
+.mid-top .blog-author-left {
+    padding-left: 2px;
+}
+
+.mid-top .blog-author-name {
+    margin-left: 4px;
+    margin-bottom: 7.8px;
+}
+
+.mid-top .blog-author-date {
+    margin-left: 3.5px;
+}
+
+/* Author */
 
 /* Blog left */
