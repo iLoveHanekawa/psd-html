@@ -576,7 +576,9 @@ img {
 }
 
 .bottom .blog-text-heading {
-    padding-top: 18px;
+    letter-spacing: 0.52px;
+    padding-top: 12.5px;
+    word-spacing: 0px;
 }
 
 /* Text */
@@ -642,6 +644,14 @@ img {
 
 .mid-bottom .blog-author-container {
     padding: 15.55px 0px 15.55px 18.1px;
+}
+
+.bottom .blog-author-container {
+    padding: 14.8px 0px 14.8px 20px;
+}
+
+.bottom .blog-author-details {
+    padding-left: 3px;
 }
 
 /* Author */
