@@ -693,7 +693,9 @@ img {
     object-fit: cover;
 }
 
-.blog-caption {
+/* Blog category */
+
+.blog-category {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     bottom: 20px;
@@ -701,27 +703,46 @@ img {
     z-index: 1;
 }
 
+/* Blog category */
+
 .blog-comments-likes {
     position: absolute;
-    bottom: 20px;
+    bottom: 15.5px;
+    font-family: 'Montserrat', sans-serif;
     right: 20px;
     z-index: 1;
     display: flex;
     align-items: center;
+    gap: 21.3px;
 }
 
-.blog-comments,
-.blog-likes {
+.blog-comments, .blog-likes {
     display: flex;
+    cursor: pointer;
+    font-size: 14px;
     align-items: center;
+    gap: 4px;
 }
 
-.material-icons-outlined.center-icon {
+/* Play button */
+
+.blog .material-icons-outlined.center-icon {
     position: absolute;
     top: 50%;
     z-index: 1;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
+
+.top .material-icons-outlined.center-icon {
+    font-size: 60px;
+}
+
+.mid-top .material-icons-outlined.center-icon {
+    font-size: 40px;
+}
+
+/* Play button */
 
 /* Blog left */
