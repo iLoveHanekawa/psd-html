@@ -560,8 +560,8 @@ img {
 
 .mid-bottom .blog-text-heading {
     font-size: 14px;
-    letter-spacing: 0.351px;
-    word-spacing: 0.44px;
+    letter-spacing: 0.3965px;
+    word-spacing: 0px;
     padding: 11px 21px 7.25px 19.7px;
     font-stretch: ultra-condensed;
 }
@@ -579,6 +579,10 @@ img {
     letter-spacing: 0.498px;
     padding-top: 12.5px;
     word-spacing: 0.01px;
+}
+
+.last-blog-blue {
+    color: #3f51b5;
 }
 
 /* Text */
