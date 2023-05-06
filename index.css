@@ -698,12 +698,19 @@ img {
 .blog-category {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
     z-index: 1;
+    bottom: 18px;
+    left: 18.5px;
+}
+
+.mid-bottom .blog-category {
+    bottom: 12.8px;
+    font-stretch: ultra-condensed;
 }
 
 /* Blog category */
+
+/* Blog comments likes */
 
 .blog-comments-likes {
     position: absolute;
@@ -724,6 +731,21 @@ img {
     gap: 4px;
 }
 
+.mid-top .blog-comments-likes {
+    gap: 20px;
+}
+
+.mid-top .blog-comments, .mid-top .blog-comments {
+    font-size: 12px;
+}
+
+.mid-bottom .blog-comments-likes {
+    bottom: 12.8px;
+    gap: 20px;
+}
+
+/* Blog comments likes */
+
 /* Play button */
 
 .blog .material-icons-outlined.center-icon {
@@ -740,7 +762,11 @@ img {
 }
 
 .mid-top .material-icons-outlined.center-icon {
-    font-size: 40px;
+    font-size: 45.7px;
+}
+
+.mid-bottom .material-icons-outlined.center-icon {
+    font-size: 46.1px;
 }
 
 /* Play button */
