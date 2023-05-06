@@ -779,6 +779,24 @@ img {
     font-size: 46.1px;
 }
 
+.material-icons-outlined.blog-navigate-left, .material-icons-outlined.blog-navigate-right {
+    position: absolute;
+    top: 48.5%;
+    transform: translateY(-50%);
+    color: #3f51b5;
+    padding: 6px;
+    background-color: white;
+    z-index: 1;
+}
+
+.material-icons-outlined.blog-navigate-left {
+    left: 10px;
+}
+
+.material-icons-outlined.blog-navigate-right {
+    right: 10px;
+}
+
 /* Play button */
 
 /* Blog left */
