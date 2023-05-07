@@ -592,8 +592,12 @@ article:hover {
     height: 40px;
     width: 100%;
     bottom: 0;
-    background-image: linear-gradient(to right, transparent 60%, white 100%);
     left: 0;
+    background-image: linear-gradient(to right, transparent 60%, white 92%, white 100%);
+}
+
+.bottom .blog-text-body::after {
+    background-image: linear-gradient(to right, transparent 60%, white 90%, white 90%);
 }
 
 .last-blog-blue {
@@ -872,6 +876,7 @@ article:hover {
     height: inherit;
     border-radius: inherit;
     text-indent: 19px;
+    width: 80%;
 }
 
 .aside-search-input:focus {
