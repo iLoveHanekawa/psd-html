@@ -597,7 +597,7 @@ article:hover {
 }
 
 .bottom .blog-text-body::after {
-    background-image: linear-gradient(to right, transparent 60%, white 90%, white 90%);
+    background-image: linear-gradient(to right, transparent 60%, white 90%, white 100%);
 }
 
 .last-blog-blue {
@@ -840,15 +840,27 @@ article:hover {
     width: 87.7419%;
 }
 
+.aside-heading {
+    color: #3f51b5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #aec3ff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+/* Aside search */
+
 .aside-search-container {
     background-color: #f5f5f5;
     display: flex;
     align-items: center;
-    margin-right: 1px;
-    margin-left: 2px;
     justify-content: space-between;
     border-radius: 9999px;
-    margin-top: 24px;
+    margin: 24px 1px 24px 2px;
     /* hides right edge */
     overflow: hidden;
     height: 43px;
@@ -882,5 +894,20 @@ article:hover {
 .aside-search-input:focus {
     outline: none;
 }
+
+/* Aside search */
+
+/* Aside categories */
+
+.aside-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-categories-item {
+    text-align: start;
+}
+
+/* Aside categories */
 
 /* Blog right */
