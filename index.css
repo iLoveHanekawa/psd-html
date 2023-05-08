@@ -661,21 +661,13 @@ article:hover {
     margin-bottom: 7.8px;
 }
 
-.mid-top .blog-author-date {
-    margin-left: 3.5px;
-}
+.mid-top .blog-author-date{margin-left: 3.5px;}
 
-.mid-bottom .blog-author-container {
-    padding: 15.55px 0px 15.55px 18.1px;
-}
+.mid-bottom .blog-author-container {padding:15.55px 0px 15.55px 18.1px;}
 
-.bottom .blog-author-container {
-    padding: 14.8px 0px 14.8px 20px;
-}
+.bottom .blog-author-container {padding:14.8px 0px 14.8px 20px;}
 
-.bottom .blog-author-details {
-    padding-left: 3px;
-}
+.bottom .blog-author-details {padding-left:3px;}
 
 /* Author */
 
@@ -837,7 +829,7 @@ article:hover {
 .aside {
     display: flex;
     flex-direction: column;
-    width: 87.7419%;
+    width: 89.7419%;
 }
 
 .aside-heading {
@@ -849,7 +841,7 @@ article:hover {
     border-bottom: 1px solid #aec3ff;
     font-size: 18px;
     letter-spacing: 0.6px;
-    /* margin-bottom: 3px; */
+    margin-bottom: 4.65px;
 }
 
 /* Aside search */
@@ -859,6 +851,8 @@ article:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 96.5%;
+    align-self: flex-end;
     border-radius: 9999px;
     margin: 24px 1px 24px 2px;
     /* hides right edge */
@@ -902,6 +896,7 @@ article:hover {
 .aside-categories {
     display: flex;
     flex-direction: column;
+    
 }
 
 .aside-categories-item {
@@ -909,13 +904,15 @@ article:hover {
     text-align: start;
     display: flex;
     justify-content: space-between;
-    padding: 8px 0px 9.26px 0px;
+    padding: 8px 0px 9.245px 0px;
     border-bottom: 1px solid #ebeae9;
 }
 
 .aside-category-name {
     font-size: 14px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.582px;
+    word-spacing: 1px;
+    padding-left: 1px;
 }
 
 .aside-category-number {
@@ -926,3 +923,10 @@ article:hover {
 /* Aside categories */
 
 /* Blog right */
+
+
+/* lifestyle */
+/* icons  */
+/* top-class */
+/* favicon anchor */
+/* headings */
