@@ -423,7 +423,7 @@ article:hover {
     width: 70.104%;
     display: grid;
     grid-template-areas:
-        "top top top"
+        "top-flex top-flex top-flex"
         "mid-top-one mid-top-one mid-top-one"
         "mid-top-two mid-top-two mid-top-two"
         "mid-top-three mid-top-three mid-top-three"
@@ -433,8 +433,8 @@ article:hover {
     grid-template-columns: 31.7% 31.7% 31.7%;
 }
 
-.top {
-    grid-area: top;
+.top-flex {
+    grid-area: top-flex;
 }
 
 .mid-top-one {
@@ -467,7 +467,7 @@ article:hover {
 
 /* query: overwriting */
 
-.top, .mid-bottom, .bottom, .mid-top {
+.top-flex, .mid-bottom, .bottom-item, .mid-top {
     background-color: white;
     border-radius: 3px;
     overflow: hidden;
@@ -482,7 +482,7 @@ article:hover {
     gap: 20.5px;
 }
 
-.top {
+.top-flex {
     height: 620px;
 }
 
@@ -499,7 +499,7 @@ article:hover {
 
 /* Blog article image heights */
 
-.top .blog-img-container {
+.top-flex .blog-img-container {
     height: 420px;
 }
 
@@ -576,17 +576,17 @@ article:hover {
     padding-left: 18.5px;
 }
 
-.bottom .blog-text-heading {
+.bottom-item .blog-text-heading {
     letter-spacing: 0.498px;
     padding-top: 12.5px;
     word-spacing: 0.01px;
 }
 
-.bottom .blog-text-body {
+.bottom-item .blog-text-body {
     position: relative;
 }
 
-.mid-bottom .blog-text-body::after, .bottom .blog-text-body::after {
+.mid-bottom .blog-text-body::after, .bottom-item .blog-text-body::after {
     content: "";
     position: absolute;
     height: 40px;
@@ -596,7 +596,7 @@ article:hover {
     background-image: linear-gradient(to right, transparent 60%, white 92%, white 100%);
 }
 
-.bottom .blog-text-body::after {
+.bottom-item .blog-text-body::after {
     background-image: linear-gradient(to right, transparent 60%, white 90%, white 100%);
 }
 
@@ -665,9 +665,9 @@ article:hover {
 
 .mid-bottom .blog-author-container {padding:15.55px 0px 15.55px 18.1px;}
 
-.bottom .blog-author-container {padding:14.8px 0px 14.8px 20px;}
+.bottom-item .blog-author-container {padding:14.8px 0px 14.8px 20px;}
 
-.bottom .blog-author-details {padding-left:3px;}
+.bottom-item .blog-author-details {padding-left:3px;}
 
 /* Author */
 
@@ -781,7 +781,7 @@ article:hover {
     cursor: pointer;
 }
 
-.top .material-icons-outlined.center-icon {
+.top-flex .material-icons-outlined.center-icon {
     font-size: 60px;
 }
 
@@ -927,5 +927,3 @@ article:hover {
 /* lifestyle */
 /* icons  */
 /* top-class */
-/* favicon anchor */
-/* headings */
