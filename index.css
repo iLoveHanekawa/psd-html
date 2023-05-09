@@ -410,7 +410,7 @@ article:hover {
 }
 
 .blog-content {
-    margin-top: 30px;
+    margin-top: 31px;
     display: flex;
     justify-content: space-between;
 }
@@ -420,7 +420,7 @@ article:hover {
 /* Grid styling */
 
 .blog-article-container {
-    width: 70.104%;
+    width: 70.085%;
     display: grid;
     grid-template-areas:
         "top-flex top-flex top-flex"
@@ -682,7 +682,7 @@ article:hover {
     left: 18.5px;
 }
 
-.top-flex .blog-category {bottom: 17.5; left: 19px;}
+.top-flex .blog-category {bottom: 17.5px; left: 19px;}
 
 .mid-bottom .blog-category {bottom: 12.8px;}
 
@@ -694,19 +694,19 @@ article:hover {
     position: absolute;
     bottom: 15.5px;
     font-family: 'Montserrat', sans-serif;
-    right: 20px;
+    right: 20.4px;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 10.297%;
+    width: 10.8%;
 }
 
 .blog-comments, .blog-likes {
     display: flex;
     font-size: 12px;
     align-items: center;
-    gap: 4px;
+    gap: 5.93px;
 }
 
 .mid-top .blog-comments-likes {
@@ -721,7 +721,7 @@ article:hover {
     width: 31.4768%;
 }
 
-.bottom-item .blog-comments-likes {width: 20.447%;}
+.bottom-item .blog-comments-likes {width: 20.447%; right: 20px;}
 
 .mid-top .blog-comments, 
 .mid-top .blog-likes,
