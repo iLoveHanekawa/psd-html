@@ -740,7 +740,6 @@ article:hover {
 
 .blog-comments, .blog-likes {
     display: flex;
-    cursor: pointer;
     font-size: 12px;
     align-items: center;
     gap: 4px;
