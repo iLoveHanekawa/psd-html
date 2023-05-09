@@ -768,12 +768,6 @@ article:hover {
     align-items: flex-end;
 }
 
-.aside {
-    display: flex;
-    flex-direction: column;
-    width: 89.7419%;
-}
-
 .aside-heading {
     color: #3f51b5;
     font-family: 'Montserrat', sans-serif;
