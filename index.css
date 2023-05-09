@@ -441,6 +441,7 @@ article:hover {
 
 .bottom-item {
     grid-column: span 3;
+    margin-top: 1.34px;
 }
 
 /* Grid styling */
@@ -512,7 +513,7 @@ article:hover {
     font-size: 16px;
     letter-spacing: 0.480px;
     word-spacing: 0.0849px;
-    padding: 7.28px 19px 5.8px 19px;
+    padding: 7.48px 19px 5.8px 19px;
 }
 
 .mid-top .blog-text-body {
@@ -602,7 +603,7 @@ article:hover {
     display: flex;
     margin-left: 4.2px;
     justify-content: start;
-    align-items: center;
+    align-items: end;
     gap: 12px;
 }
 
@@ -633,8 +634,8 @@ article:hover {
 }
 
 .mid-bottom .material-icons-outlined.vert {
-    align-self: flex-end;
-    margin-bottom: 5.5px;
+    margin-top: 19.8px;
+    padding-right: 10.35px;
 }
 
 /* Icons */
@@ -713,7 +714,7 @@ article:hover {
     width: 32.2768%;
 }
 
-.bottom-item .blog-comments-likes {width: 20.447%; right: 20px;}
+.bottom-item .blog-comments-likes {width: 21.247%; right: 20px; bottom: 16.3px;}
 
 .mid-top .blog-comments, 
 .mid-top .blog-likes,
