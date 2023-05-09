@@ -433,33 +433,19 @@ article:hover {
     grid-template-columns: 31.7% 31.7% 31.7%;
 }
 
-.top-flex {
-    grid-area: top-flex;
-}
+.top-flex {grid-area: top-flex;}
 
-.mid-top-one {
-    grid-area: mid-top-one;
-}
+.mid-top-one {grid-area: mid-top-one;}
 
-.mid-top-two {
-    grid-area: mid-top-two;
-}
+.mid-top-two {grid-area: mid-top-two;}
 
-.mid-top-three {
-    grid-area: mid-top-three;
-}
+.mid-top-three {grid-area: mid-top-three;}
 
-.mid-bottom-one {
-    grid-area: mid-bottom-one;
-}
+.mid-bottom-one {grid-area: mid-bottom-one;}
 
-.mid-bottom-two {
-    grid-area: mid-bottom-two;
-}
+.mid-bottom-two {grid-area: mid-bottom-two;}
 
-.mid-bottom-three {
-    grid-area: mid-bottom-three;
-}
+.mid-bottom-three {grid-area: mid-bottom-three;}
 
 /* Grid styling */
 
@@ -482,47 +468,35 @@ article:hover {
     gap: 20.5px;
 }
 
-.top-flex {
-    height: 620px;
-}
+.top-flex {height: 620px;}
 
 .mid-top {
     flex-direction: row;
     height: 165.5px;
 }
 
-.mid-bottom {
-    height: 420px;
-}
+.mid-bottom {height: 420px;}
 
 /* Article flexs */
 
 /* Blog article image heights */
 
-.top-flex .blog-img-container {
-    height: 420px;
-}
+.top-flex .blog-img-container {height: 420px;}
 
-.bottom-flex .blog-img-container {
-    height: 300px;
-}
+.bottom-flex .blog-img-container {height: 300px;}
 
 .mid-top .blog-img-container {
     height: 100%;
     width: 55.534%;
 }
 
-.mid-bottom .blog-img-container {
-    height: 160px;
-}
+.mid-bottom .blog-img-container {height: 160px;}
 
 /* Blog article image heights */
 
 /* Text */
 
-.blog-text-container {
-    color: #212121;
-}
+.blog-text-container {color: #212121;}
 
 .blog-text-heading {
     font-family: 'Montserrat', sans-serif;
@@ -582,9 +556,7 @@ article:hover {
     word-spacing: 0.01px;
 }
 
-.bottom-item .blog-text-body {
-    position: relative;
-}
+.bottom-item .blog-text-body {position: relative;}
 
 .mid-bottom .blog-text-body::after, .bottom-item .blog-text-body::after {
     content: "";
@@ -600,9 +572,7 @@ article:hover {
     background-image: linear-gradient(to right, transparent 60%, white 90%, white 100%);
 }
 
-.last-blog-blue {
-    color: #3f51b5;
-}
+.last-blog-blue {color: #3f51b5;}
 
 /* Text */
 
@@ -622,9 +592,7 @@ article:hover {
     align-items: center;
 }
 
-.blog-author-details {
-    padding-left: 5px;
-}
+.blog-author-details {padding-left: 5px;}
 
 .blog-author-name {
     font-weight: 700;
@@ -648,13 +616,9 @@ article:hover {
     gap: 12px;
 }
 
-.mid-top .blog-author-container {
-    padding: 9.72px 0px 9.72px 18.75px;
-}
+.mid-top .blog-author-container {padding: 9.72px 0px 9.72px 18.75px;}
 
-.mid-top .blog-author-left {
-    padding-left: 2px;
-}
+.mid-top .blog-author-left {padding-left: 2px;}
 
 .mid-top .blog-author-name {
     margin-left: 4px;
@@ -718,9 +682,9 @@ article:hover {
     left: 18.5px;
 }
 
-.mid-bottom .blog-category {
-    bottom: 12.8px;
-}
+.top-flex .blog-category {bottom: 17.5; left: 19px;}
+
+.mid-bottom .blog-category {bottom: 12.8px;}
 
 /* Blog category */
 
@@ -757,16 +721,12 @@ article:hover {
     width: 31.4768%;
 }
 
-.bottom .blog-comments-likes {
-    width: 20.447%;
-}
+.bottom-item .blog-comments-likes {width: 20.447%;}
 
 .mid-top .blog-comments, 
 .mid-top .blog-likes,
 .mid-bottom .blog-comments,
-.mid-bottom .blog-likes {
-    letter-spacing: 0.5px;
-}
+.mid-bottom .blog-likes {letter-spacing: 0.5px;}
 
 /* Blog comments likes */
 
@@ -781,17 +741,11 @@ article:hover {
     cursor: pointer;
 }
 
-.top-flex .material-icons-outlined.center-icon {
-    font-size: 60px;
-}
+.top-flex .material-icons-outlined.center-icon {font-size: 60px;}
 
-.mid-top .material-icons-outlined.center-icon {
-    font-size: 45.7px;
-}
+.mid-top .material-icons-outlined.center-icon {font-size: 45.7px;}
 
-.mid-bottom .material-icons-outlined.center-icon {
-    font-size: 46.1px;
-}
+.mid-bottom .material-icons-outlined.center-icon {font-size: 46.1px;}
 
 .material-icons-outlined.blog-navigate-left, .material-icons-outlined.blog-navigate-right {
     position: absolute;
@@ -803,13 +757,9 @@ article:hover {
     z-index: 1;
 }
 
-.material-icons-outlined.blog-navigate-left {
-    left: 10px;
-}
+.material-icons-outlined.blog-navigate-left {left: 10px;}
 
-.material-icons-outlined.blog-navigate-right {
-    right: 10px;
-}
+.material-icons-outlined.blog-navigate-right {right: 10px;}
 
 /* Play button */
 
@@ -926,4 +876,6 @@ article:hover {
 
 /* lifestyle */
 /* icons  */
-/* top-class */
+/* vert icons in mid-bot row */
+/* Clickable category */
+/* font-stretch */
