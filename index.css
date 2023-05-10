@@ -766,6 +766,8 @@ article:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-left: 36.5px;
+    box-sizing: border-box;
 }
 
 .aside-heading {
@@ -787,8 +789,7 @@ article:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 96.5%;
-    align-self: flex-end;
+    width: 100%;
     border-radius: 9999px;
     margin: 24px 1px 24px 2px;
     /* hides right edge */
@@ -832,7 +833,7 @@ article:hover {
 .aside-categories {
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
 }
 
 .aside-categories-item {
@@ -840,29 +841,29 @@ article:hover {
     text-align: start;
     display: flex;
     justify-content: space-between;
-    padding: 8px 0px 9.245px 0px;
+    height: 39.8px;
+    box-sizing: border-box;
+    padding-top: 8px;
     border-bottom: 1px solid #ebeae9;
 }
 
 .aside-category-name {
     font-size: 14px;
-    letter-spacing: 0.582px;
-    word-spacing: 1px;
+    letter-spacing: 0.58px;
+    word-spacing: 1.38px;
     padding-left: 1px;
 }
 
 .aside-category-number {
     font-weight: 700;
+    height: fit-content;
     font-stretch: ultra-condensed;
+}
+
+.aside-category-no-border {
+    border: none;
 }
 
 /* Aside categories */
 
 /* Blog right */
-
-
-/* lifestyle */
-/* icons  */
-/* vert icons in mid-bot row */
-/* Clickable category */
-/* font-stretch */
