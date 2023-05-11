@@ -733,15 +733,7 @@ article:hover {
     font-size: 16px;
 }
 
-.material-icons-outlined.blog-more-icon {
-    display: flex;
-    height: 42px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    width: 42px;
-}
+.material-icons-outlined.blog-more-icon { display: flex; height: 42px; background-color: white; justify-content: center; align-items: center; border-radius: 100%; width: 42px; }
 
 /* Blog more */
 
