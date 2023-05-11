@@ -825,10 +825,7 @@ article:hover {
 
 .aside-post { display: flex; height: 88px; font-family: 'Open Sans', sans-serif; flex-direction: row; gap: 14px; padding-bottom: 10.75px; margin-left: 2px; border-bottom: 1px solid #dde5e9; }
 
-.aside-post-info {
-    display: flex;
-    flex-direction: column;
-}
+.aside-post-info { display: flex; flex-direction: column; }
 
 .aside-post-date-comments { font-size: 12px; justify-content: space-between; align-items: start; display: flex; padding-left: 1px; }
 
@@ -836,7 +833,7 @@ article:hover {
 
 .aside-post-comments-count { margin-top: 1px; color: #b9c5cd; }
 
-.aside-post-image { height: 80px; width: 64.41%; margin-top: 4.5px; object-fit: cover; object-position: center; overflow: hidden; }
+.aside-post-image { height: 80px; width: 64.53%; margin-top: 4.5px; object-fit: cover; object-position: center; overflow: hidden; }
 
 .aside-post-heading { font-weight: 700; font-size: 13px; padding-top: 1.35px; letter-spacing: 1px; word-spacing: 0.5px; margin-left: 1.5px; line-height: 1.65; }
 
@@ -845,6 +842,39 @@ article:hover {
 /* Aside tab widget posts */
 
 /* Aside tab widget */
+
+/* Aside tags */
+
+.aside-tags-container {
+    margin-top: 27px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    gap: 9px;
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+}
+
+.aside-tags-container .aside-heading {
+    margin-left: 2.25px;
+}
+
+.aside-tags-children {
+    gap: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aside-tags-child {
+    padding-top: 9px;
+    background-color: #ededed;
+    border-radius: 4px;
+    letter-spacing: 1.235px;
+    padding: 9px 14px 11px 15px;
+}
+
+/* Aside tags */
 
 /* Blog right */
 
