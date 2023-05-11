@@ -823,22 +823,22 @@ article:hover {
 
 /* Aside tab widget posts */
 
-.aside-post { display: flex; height: 88px; font-family: 'Open Sans', sans-serif; flex-direction: row; gap: 14px; padding-bottom: 12px; margin-left: 3.5px; border-bottom: 1px solid #dde5e9; }
+.aside-post { display: flex; height: 88px; font-family: 'Open Sans', sans-serif; flex-direction: row; gap: 14px; padding-bottom: 12px; margin-left: 2px; border-bottom: 1px solid #dde5e9; }
 
 .aside-post-info {
     display: flex;
     flex-direction: column;
 }
 
-.aside-post-date-comments { font-size: 12px; justify-content: space-between; align-items: start; display: flex; }
+.aside-post-date-comments { font-size: 12px; justify-content: space-between; align-items: start; display: flex; padding-left: 1px; }
 
 .aside-post-comments { display: flex; padding-top: 0px; gap: 3.5px; align-items: end; width: 19.6%; overflow: hidden; justify-content: flex-end; }
 
 .aside-post-comments-count { margin-top: 2px; color: #b9c5cd; }
 
-.aside-post-image { height: 80px; width: 64.56%; margin-top: 4.5px; object-fit: cover; object-position: center; overflow: hidden; }
+.aside-post-image { height: 80px; width: 64.41%; margin-top: 4.5px; object-fit: cover; object-position: center; overflow: hidden; }
 
-.aside-post-heading { font-weight: 700; font-size: 13px; padding-top: 0.85px; letter-spacing: 1px; word-spacing: 0.5px; margin-left: 1px; line-height: 1.65; }
+.aside-post-heading { font-weight: 700; font-size: 13px; padding-top: 0.85px; letter-spacing: 1px; word-spacing: 0.5px; margin-left: 1.5px; line-height: 1.65; }
 
 .material-icons.aside-comments-icon { font-size: 14px; padding: 0px; align-self: flex-start; color: #3f51b5; margin-top: 1px; }
 
