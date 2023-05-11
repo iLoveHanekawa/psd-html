@@ -801,15 +801,15 @@ article:hover {
 
 /* Aside tab widget */
 
-.aside-post-container { display: flex; flex-direction: column; gap: 19px; }
+.aside-post-container { display: flex; flex-direction: column; gap: 15px; }
 
 .aside-post-container .aside-heading { letter-spacing: 0.15px; margin-bottom: 0.5px; word-spacing: 1px; }
 
 /* Aside tab widget buttons */
 
-.aside-post-buttons-container { font-size: 12px; display: flex; margin-left: 2px; }
+.aside-post-buttons-container { font-size: 12px; display: flex; margin-left: 3px; margin-top: 4px; }
 
-.aside-post-container .aside-button { letter-spacing: 0px; text-align: center; word-spacing: 1.5px; border: 1px solid #3f51b5; color: #3f51b5; background-color: white; padding: 11.5px 0px; transition-property: color background-color; transition-duration: 300ms; transition-timing-function: ease-in-out; cursor: pointer; margin-top: 0; }
+.aside-post-container .aside-button { letter-spacing: 0; text-align: center; word-spacing: 0px; border: 1px solid #3f51b5; color: #3f51b5; background-color: white; padding: 11.5px 0px; transition-property: color background-color; transition-duration: 300ms; transition-timing-function: ease-in-out; cursor: pointer; margin-top: 0; }
 
 .aside-button-one { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
@@ -821,11 +821,53 @@ article:hover {
 
 /* Aside tab widget buttons */
 
-/* Aside tab widget post */
+/* Aside tab widget posts */
 
+.aside-post {
+    display: flex;
+    height: 88px;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: row;
+    gap: 14px;
+    padding-bottom: 10px;
+    background-color: red;
+    margin-left: 2.5px;
+}
 
+.aside-post-date-comments {
+    font-size: 12px;
+    background-color: purple;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+}
 
-/* Aside tab widget post */
+.aside-post-comments {
+    display: flex;
+    padding-top: 0px;
+    align-items: start;
+}
+
+.aside-post-date {
+}
+
+.aside-post-image {
+    height: 80px;
+    width: 59.83%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.aside-post-heading {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.material-icons.aside-comments-icon { font-size: 14px; padding: 0px;
+}
+
+/* Aside tab widget posts */
 
 /* Aside tab widget */
 
