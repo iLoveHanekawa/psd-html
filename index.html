@@ -89,7 +89,7 @@
                 <div class="hero-main">
                     <h3 class="hero-main-inspiration">INSPIRATION</h3>
                     <div class="hero-main-millennial">
-                        <h1>5 Ways milllennials can start building their future today</h1>
+                        <h2>5 Ways milllennials can start building their future today</h2>
                     </div>
                     <bottom class="hero-main-button">READ MORE</bottom>
                     <figure class="hero-main-author">
@@ -121,7 +121,7 @@
                 <div class="blog-nav-container">
                     <form class="custom-body-width blog-nav">
                         <h3 class="blog-sort">SORT BLOG:</h3>
-                        <input class="blog-nav-input" name="filter" id="all" type="radio" />
+                        <input checked="true" class="blog-nav-input" name="filter" id="all" type="radio" />
                         <label for="all" class="blog-nav-label">ALL</label>
                         <input class="blog-nav-input" name="filter" id="photo" type="radio"/>
                         <label for="photo" class="blog-nav-label">PHOTOGRAPHY</label>
@@ -544,12 +544,12 @@
                             </a>
                         </div>
                         <form class="aside-subscribe">
-                            <h1 class="aside-heading">SUBCRIBE</h1>
+                            <h3 class="aside-heading">SUBCRIBE</h3>
                             <label for="aside-subscribe-name" class="aside-subscribe-label">Name</label>
                             <input type="text" id="aside-subscribe-name" class="aside-subscribe-input" placeholder="Igor Ten" />
                             <label for="aside-subscribe-email" class="aside-subscribe-label">Email</label>
                             <input type="text" id="aside-subscribe-email" class="aside-subscribe-input" placeholder="email@adress.com" />
-                            <button class="aside-subscribe-button">SUBCRIBE</button>
+                            <button class="aside-button">SUBCRIBE</button>
                             <div class="aside-or-container">
                                 <span class="aside-or-surround"></span>
                                 <span class="aside-or-text">or</span>
@@ -565,13 +565,15 @@
                             </div>
                         </form>
                         <div class="aside-post-container">
-                            <h1 class="aside-heading">TAB POST WIDGET</h1>
-                            <div class="aside-post-button-container">
-                                <button>RECENT POST</button>
-                                <button>POPULAR POST</button>
-                            </div>
+                            <h3 class="aside-heading">TAB POST WIDGET</h3>
+                            <form class="aside-post-buttons-container">
+                                <input name="aside-filter" checked="true" id="aside-recent" type="radio" class="aside-post-input" />
+                                <label for="aside-recent" class="aside-button aside-button-one">RECENT POST</label>
+                                <input name="aside-filter" id="aside-popular" type="radio" class="aside-post-input" />
+                                <label for="aside-popular" class="aside-button aside-button-two">POPULAR POST</label>
+                            </form>
                             <div class="aside-post">
-                                <img src="" alt="blog img" />
+                                <img src="./images/tab1.png" alt="blog img" />
                                 <div class="aside-post-info">
                                     <div class="aside-post-date-comments">
                                         <time class="aside-post-date">April 28, 2016</time>
@@ -580,11 +582,11 @@
                                             17
                                         </a>
                                     </div>
-                                    <h1 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h1>
+                                    <h4 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h4>
                                 </div>
                             </div>
                             <div class="aside-post">
-                                <img src="" alt="blog img" />
+                                <img src="./images/tab2.png" alt="blog img" />
                                 <div class="aside-post-info">
                                     <div class="aside-post-date-comments">
                                         <time class="aside-post-date">April 28, 2016</time>
@@ -593,11 +595,11 @@
                                             17
                                         </a>
                                     </div>
-                                    <h1 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h1>
+                                    <h4 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h4>
                                 </div>
                             </div>
                             <div class="aside-post">
-                                <img src="" alt="blog img" />
+                                <img src="./images/tab3.png" alt="blog img" />
                                 <div class="aside-post-info">
                                     <div class="aside-post-date-comments">
                                         <time class="aside-post-date">April 28, 2016</time>
@@ -606,11 +608,11 @@
                                             17
                                         </a>
                                     </div>
-                                    <h1 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h1>
+                                    <h4 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h4>
                                 </div>
                             </div>
                             <div class="aside-post">
-                                <img src="" alt="blog img" />
+                                <img src="./images/tab4.png" alt="blog img" />
                                 <div class="aside-post-info">
                                     <div class="aside-post-date-comments">
                                         <time class="aside-post-date">April 28, 2016</time>
@@ -619,12 +621,12 @@
                                             17
                                         </a>
                                     </div>
-                                    <h1 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h1>
+                                    <h4 class="aside-post-heading">April 28, 2016 Duis commodo elit sed nisi molestie</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="aside-tags-container">
-                            <h1 class="aside-heading">TAGS</h1>
+                            <h3 class="aside-heading">TAGS</h3>
                             <div class="aside-tags-children">
                                 <span class="aside-tags-child">Photography</span>
                                 <span class="aside-tags-child">Webdesign</span>
