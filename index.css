@@ -762,7 +762,7 @@ article:hover {
 
 .aside-container { width: 26.37%; background-color: white; display: flex; flex-direction: column; align-items: flex-end; padding-left: 36.5px; box-sizing: border-box; }
 
-.aside-heading { color: #3f51b5; font-family: 'Montserrat', sans-serif; font-weight: 700; padding-bottom: 6px; padding-top: 2px; border-bottom: 1px solid #aec3ff; font-size: 18px; letter-spacing: 0.6px; margin-bottom: 4.65px; }
+.aside-heading { color: #3f51b5; font-family: 'Montserrat', sans-serif; font-weight: 700; padding-bottom: 5.65px; padding-top: 2px; border-bottom: 1.5px solid #aec3ff; font-size: 18px; letter-spacing: 0.6px; margin-bottom: 5px; margin-left: 1.45px; }
 
 /* Aside search */
 
@@ -786,8 +786,16 @@ article:hover {
 
 .aside-category-number { margin-top: 1.3px; font-weight: 700; height: fit-content; }
 
-.aside-category-no-border { border: none; }
+.aside-category-no-border { border: none; margin-bottom: 25.95px; }
 
 /* Aside categories */
+
+/* Subscribe form */
+
+.aside-subscribe { font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; width: 100%; gap: 10px; }
+
+.aside-subscribe-input { padding: 12px 0px; border-radius: 3px; border: 1px solid #e0e0e0; text-indent: 12px; }
+
+/* Subscribe form */
 
 /* Blog right */
