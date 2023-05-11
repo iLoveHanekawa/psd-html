@@ -346,13 +346,7 @@ article:hover {
 
 /* HERO */
 
-.blog {
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    align-items: center;
-    background-color: #f5f5f5;
-}
+.blog { display: flex; flex-direction: column; overflow-x: hidden; align-items: center; background-color: #f5f5f5; }
 
 .blog-nav-container {
     font-family: 'Montserrat', sans-serif;
@@ -550,15 +544,7 @@ article:hover {
 
 .bottom-item .blog-text-body {position: relative;}
 
-.mid-bottom .blog-text-body::after, .bottom-item .blog-text-body::after {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to right, transparent 60%, white 92%, white 100%);
-}
+.mid-bottom .blog-text-body::after, .bottom-item .blog-text-body::after { content: ""; position: absolute; height: 40px; width: 100%; bottom: 0; left: 0; background-image: linear-gradient(to right, transparent 60%, white 92%, white 100%); }
 
 .bottom-item .blog-text-body::after {
     background-image: linear-gradient(to right, transparent 60%, white 90%, white 100%);
@@ -741,15 +727,7 @@ article:hover {
 
 .mid-bottom .material-icons-outlined.center-icon {font-size: 46.1px;}
 
-.material-icons-outlined.blog-navigate-left, .material-icons-outlined.blog-navigate-right {
-    position: absolute;
-    top: 48.5%;
-    transform: translateY(-50%);
-    color: #3f51b5;
-    padding: 6px;
-    background-color: white;
-    z-index: 1;
-}
+.material-icons-outlined.blog-navigate-left, .material-icons-outlined.blog-navigate-right { position: absolute; top: 48.5%; transform: translateY(-50%); color: #3f51b5; padding: 6px; background-color: white; z-index: 1; }
 
 .material-icons-outlined.blog-navigate-left {left: 10px;}
 
@@ -795,26 +773,29 @@ article:hover {
 
 /* Subscribe form */
 
-.aside-subscribe { font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; width: 100%; gap: 11.3px; }
+.aside-subscribe { font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; width: 100%; gap: 8.3px; }
 
 .aside-subscribe .aside-heading { margin-bottom: 0px; margin-left: 1.265px; }
 
-.aside-subscribe-input { font-family: inherit; margin-left: 2.25px; padding: 9.25px 0px 12.25px 0px; border-radius: 3px; border: 1px solid #e0e0e0; text-indent: 15px; }
+.aside-subscribe-input { font-family: inherit; margin-top: 3px; margin-left: 2.25px; padding: 9.25px 0px 12.25px 0px; border-radius: 3px; border: 1px solid #e0e0e0; text-indent: 15px; }
 .aside-subscribe-input::placeholder { color: #9e9e9e; letter-spacing: 0.85px; }
 
-.aside-subscribe-label { margin-left: 1px; letter-spacing: 0.88px; width: fit-content; }
+.aside-subscribe-label { margin-left: 1px; letter-spacing: 0.88px; width: fit-content; margin-top: 3px; }
 
-.aside-subscribe-button {
-    background-color: #3f51b5;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 11px 0px 14px 0px;
-    width: 99%;
-    align-self: flex-end;
-    border-radius: 3px;
-    color: white;
-}
+.aside-subscribe-button { background-color: #3f51b5; letter-spacing: 1px; font-family: 'Montserrat', sans-serif; padding: 12.5px 0px 12.5px 0px; width: 99%; margin-top: 1.5px; align-self: flex-end; border-radius: 3px; color: white; }
 
 /* Subscribe form */
+
+/* Aside "or" */
+
+.aside-or-container { color: #2f2f2f; display: flex; align-items: center; margin-left: 2.165px; margin-top: 4.5px; }
+
+.aside-or-text { padding: 0px 5px; letter-spacing: 1px; }
+
+.aside-or-surround { width: 100%; border-top: 1px solid #767676; margin-top: 2px; }
+
+/* Aside "or" */
+
+/*  */
 
 /* Blog right */
