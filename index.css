@@ -633,22 +633,9 @@ article:hover {
     font-size: 12px;
 }
 
-.blog-img-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%);
-}
+.blog-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%); }
 
-.blog-img {
-    width: 100%;
-    height: inherit;
-    object-position: center;
-    object-fit: cover;
-}
+.blog-img { width: 100%; height: inherit; object-position: center; object-fit: cover; }
 
 /* Blog category */
 
@@ -773,7 +760,7 @@ article:hover {
 
 /* Subscribe form */
 
-.aside-subscribe { font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; width: 100%; gap: 8.3px; }
+.aside-subscribe { font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; width: 100%; gap: 8.3px; margin-bottom: 42.8px;}
 
 .aside-subscribe .aside-heading { margin-bottom: 0px; margin-left: 1.265px; }
 
@@ -811,4 +798,20 @@ article:hover {
 
 /* Subscribe form */
 
+/* Aside tab widget */
+
+.aside-post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-post-container .aside-heading {
+    word-spacing: 0;
+}
+
+/* Aside tab widget */
+
 /* Blog right */
+
+/* QUERY: percent width in fixed width container? */
+/* TODO: fix subscribe typo */
