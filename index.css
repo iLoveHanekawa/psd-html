@@ -849,18 +849,22 @@ article:hover {
     margin-top: 27px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
-    gap: 9px;
+    gap: 10.35px;
     display: flex;
+    margin-left: 2.5px;
+    padding-left: 2.25px;
     font-size: 13px;
     flex-direction: column;
 }
 
 .aside-tags-container .aside-heading {
     margin-left: 2.25px;
+    margin-bottom: 10px;
 }
 
 .aside-tags-children {
-    gap: 8px;
+    margin-left: 2.5px;
+    gap: 9.95px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -870,8 +874,8 @@ article:hover {
     padding-top: 9px;
     background-color: #ededed;
     border-radius: 4px;
-    letter-spacing: 1.235px;
-    padding: 9px 14px 11px 15px;
+    letter-spacing: 1.15px;
+    padding: 5.25px 14.5px 7px 14.15px;
 }
 
 /* Aside tags */
