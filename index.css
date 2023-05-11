@@ -801,13 +801,13 @@ article:hover {
 
 /* Aside tab widget */
 
-.aside-post-container { display: flex; flex-direction: column; gap: 15px; }
+.aside-post-container { display: flex; flex-direction: column; gap: 11.5px; }
 
-.aside-post-container .aside-heading { letter-spacing: 0.15px; margin-bottom: 0.5px; word-spacing: 1px; }
+.aside-post-container .aside-heading { letter-spacing: 0.15px; margin-bottom: 4px; word-spacing: 1px; }
 
 /* Aside tab widget buttons */
 
-.aside-post-buttons-container { font-size: 12px; display: flex; margin-left: 3px; margin-top: 4px; }
+.aside-post-buttons-container { font-size: 12px; display: flex; margin-left: 3px; margin-top: 4px; margin-bottom: 3.95px; }
 
 .aside-post-container .aside-button { letter-spacing: 0; text-align: center; word-spacing: 0px; border: 1px solid #3f51b5; color: #3f51b5; background-color: white; padding: 11.5px 0px; transition-property: color background-color; transition-duration: 300ms; transition-timing-function: ease-in-out; cursor: pointer; margin-top: 0; }
 
@@ -823,7 +823,7 @@ article:hover {
 
 /* Aside tab widget posts */
 
-.aside-post { display: flex; height: 88px; font-family: 'Open Sans', sans-serif; flex-direction: row; gap: 14px; padding-bottom: 12px; margin-left: 2px; border-bottom: 1px solid #dde5e9; }
+.aside-post { display: flex; height: 88px; font-family: 'Open Sans', sans-serif; flex-direction: row; gap: 14px; padding-bottom: 10.75px; margin-left: 2px; border-bottom: 1px solid #dde5e9; }
 
 .aside-post-info {
     display: flex;
@@ -834,13 +834,13 @@ article:hover {
 
 .aside-post-comments { display: flex; padding-top: 0px; gap: 3.5px; align-items: end; width: 19.6%; overflow: hidden; justify-content: flex-end; }
 
-.aside-post-comments-count { margin-top: 2px; color: #b9c5cd; }
+.aside-post-comments-count { margin-top: 1px; color: #b9c5cd; }
 
 .aside-post-image { height: 80px; width: 64.41%; margin-top: 4.5px; object-fit: cover; object-position: center; overflow: hidden; }
 
-.aside-post-heading { font-weight: 700; font-size: 13px; padding-top: 0.85px; letter-spacing: 1px; word-spacing: 0.5px; margin-left: 1.5px; line-height: 1.65; }
+.aside-post-heading { font-weight: 700; font-size: 13px; padding-top: 1.35px; letter-spacing: 1px; word-spacing: 0.5px; margin-left: 1.5px; line-height: 1.65; }
 
-.material-icons.aside-comments-icon { font-size: 14px; padding: 0px; align-self: flex-start; color: #3f51b5; margin-top: 1px; }
+.material-icons.aside-comments-icon { font-size: 14px; padding: 0px; align-self: flex-start; color: #3f51b5; }
 
 /* Aside tab widget posts */
 
