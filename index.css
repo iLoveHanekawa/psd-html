@@ -801,14 +801,14 @@ article:hover {
 
 .aside-icons-container { display: flex; align-items: center; justify-content: flex-end; margin-right: 2.5px; margin-top: 9.5px; gap: 10px; }
 
-.aside-icon { height: 36px; width: 36px; color: white; border-radius: 100%; display: flex; justify-content: center; align-items: center; }
+.aside-icon { color: white; border-radius: 50%; }
 
-.aside-icon.aside-fb { background-color: #3b5999; }
-.aside-icon.aside-twitter { background-color: #55abed; }
-.aside-icon.aside-vk { background-color: #4b75a3; }
-.aside-icon.aside-pinterest { background-color: #ff2d55; }
-.aside-icon.aside-tumblr { background-color: #33455d; }
-.aside-icon.aside-dribble { background-color: #e94b89; }
+.aside-icon.aside-fb { background-color: #3b5999; padding: 10px 13.425px;}
+.aside-icon.aside-twitter { background-color: #55abed; padding: 10px 10.57px; }
+.aside-icon.aside-vk { background-color: #4b75a3; padding: 10px 9.425px; }
+.aside-icon.aside-pinterest { background-color: #ff2d55; padding: 10px 12.28px; }
+.aside-icon.aside-tumblr { background-color: #33455d; padding: 10px 13.425px; }
+.aside-icon.aside-dribble { background-color: #e94b89; padding: 10px 11.14px; }
 
 /* Aside-icon */
 
@@ -875,4 +875,4 @@ article:hover {
 /* Blog right */
 
 /* QUERY: percent width in fixed width container? */
-/* TODO: fix subscribe typo, padding for buttons */
+/* TODO: padding for buttons */
