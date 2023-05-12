@@ -513,19 +513,20 @@
                     </article>
                     <form class="blog-article-more-container">
                         <div class="blog-article-more-text">More</div>
-                        <button><span class="material-icons-outlined blog-more-icon">arrow_forward</span></button>
+                        <button type="submit"><span class="material-icons-outlined blog-more-icon">arrow_forward</span></button>
                     </form>
                 </div>
                 <div class="aside-container">
                     <form class="aside-search-container">
                         <input class="aside-search-input" type="text" placeholder="Search" />
-                        <button><span class="material-icons-outlined aside-search-icon">
+                        <button type="submit"><span class="material-icons-outlined aside-search-icon">
                             search
                         </span></button>
                     </form>
                     <div class="aside-categories">
                         <h3 class="aside-heading">CATEGORIES</h3>
                         <a href="#" class="aside-categories-item">
+                            <!-- TODO: span -->
                             <div class="aside-category-name">Photography</div>
                             <div class="aside-category-number">195</div>
                         </a>
@@ -552,7 +553,7 @@
                         <input type="text" id="aside-subscribe-name" class="aside-subscribe-input" placeholder="Igor Ten" />
                         <label for="aside-subscribe-email" class="aside-subscribe-label">Email</label>
                         <input type="text" id="aside-subscribe-email" class="aside-subscribe-input" placeholder="email@adress.com" />
-                        <button class="aside-button">SUBCRIBE</button>
+                        <button type="submit" class="aside-button">SUBCRIBE</button>
                         <div class="aside-or-container">
                             <span class="aside-or-surround"></span>
                             <span class="aside-or-text">or</span>
@@ -575,9 +576,8 @@
                             <input name="aside-filter" id="aside-popular" type="radio" class="aside-post-input" />
                             <label for="aside-popular" class="aside-button aside-button-two">POPULAR POST</label>
                         </form>
-                        
                         <div class="aside-post">
-                            <img class="aside-post-image" src="./images/tab1.png" alt="blog img" />
+                            <a href="#" class="aside-post-image-container"><img class="aside-post-image" src="./images/tab1.png" alt="blog img" /></a>
                             <div class="aside-post-info">
                                 <div class="aside-post-date-comments">
                                     <time class="aside-post-date">April 28, 2016</time>
@@ -590,7 +590,7 @@
                             </div>
                         </div>
                         <div class="aside-post">
-                            <img class="aside-post-image" src="./images/tab2.png" alt="blog img" />
+                            <a href="#" class="aside-post-image-container"><img class="aside-post-image" src="./images/tab2.png" alt="blog img" /></a>
                             <div class="aside-post-info">
                                 <div class="aside-post-date-comments">
                                     <time class="aside-post-date">April 28, 2016</time>
@@ -603,7 +603,7 @@
                             </div>
                         </div>
                         <div class="aside-post">
-                            <img class="aside-post-image" src="./images/tab3.png" alt="blog img" />
+                            <a href="#" class="aside-post-image-container"><img class="aside-post-image" src="./images/tab3.png" alt="blog img" /></a>
                             <div class="aside-post-info">
                                 <div class="aside-post-date-comments">
                                     <time class="aside-post-date">April 28, 2016</time>
@@ -616,7 +616,7 @@
                             </div>
                         </div>
                         <div class="aside-post">
-                            <img class="aside-post-image" src="./images/tab4.png" alt="blog img" />
+                            <a href="#" class="aside-post-image-container"><img class="aside-post-image" class="" src="./images/tab4.png" alt="blog img" /></a>
                             <div class="aside-post-info">
                                 <div class="aside-post-date-comments">
                                     <time class="aside-post-date">April 28, 2016</time>
@@ -629,6 +629,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- TODO: grid -->
                     <div class="aside-tags-container">
                         <h3 class="aside-heading">TAGS</h3>
                         <div class="aside-tags-children">
