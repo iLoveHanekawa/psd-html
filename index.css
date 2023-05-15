@@ -922,13 +922,25 @@ article:hover {
 
 .footer-widgets-container { display: flex; margin-top: 45px; }
 
-.footer-widget-heading { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+.footer-widget-heading { font-family: 'Montserrat', sans-serif; font-weight: 700; color: white; }
 
 .footer-widget-flex { display: flex; flex-direction: column; }
 
+.footer-widget-item { display: flex; flex-direction: column; }
+
 /* Pages widget */
 
-.footer-widget-pages { width: 22.9056%; }
+.footer-widget-pages { width: 22.9056%; color: #bdbdbd; }
+
+.footer-pages-input { display: none;}
+
+.footer-pages-label { font-family: 'Montserrat', sans-serif; }
+
+.footer-pages-nav { display: none; }
+
+.footer-pages-input:checked + .footer-pages-label + .footer-pages-nav { display: block; }
+
+
 
 /* Pages widget */
 
