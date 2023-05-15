@@ -866,11 +866,7 @@ article:hover {
 
 .aside-tags-container .aside-heading { margin-left: 2.25px; margin-bottom: 20.35px; }
 
-.aside-tags-flex {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 2.5px;
-}
+.aside-tags-flex { display: flex; flex-wrap: wrap; margin-left: 2.5px; }
 
 .aside-tags-child { padding-top: 9px; background-color: #ededed; border-radius: 4px; letter-spacing: 1.15px; padding: 5.25px 14.5px 7px 14.15px; margin-bottom: 10.35px; margin-right: 9.95px; }
 
