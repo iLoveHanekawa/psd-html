@@ -36,6 +36,16 @@ h1, h2, h3, h4, pre, p, input, figure {
     font-weight: inherit;
 }
 
+select {
+    padding: 0;
+    margin: 0;
+}
+
+select:focus {
+    outline: none;
+    border: none;
+}
+
 img {
     padding: 0;
     margin: 0;
@@ -876,11 +886,19 @@ article:hover {
 
 /* Footer */
 
-.footer-images-container { width: auto; display: flex; overflow-x: scroll; }
+/* Footer images */
 
-.footer-image { height: 240px; }
+.footer-images-container { width: auto; display: flex; overflow-x: scroll; overflow-y: hidden; }
+
+.footer-image-link { height: 240px; }
+
+.footer-image { object-fit: cover; object-position: center; }
 
 .footer-images-container::-webkit-scrollbar { display: none; }
+
+/* Footer images */
+
+/* Footer newsletter */
 
 .footer-newsletter { height: 200px; background-image: url('/images/newsletter-bg.png'); display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; }
 
@@ -896,7 +914,49 @@ article:hover {
 
 .footer-newsletter-button { font-size: 17px; font-family: 'Montserrat', sans-serif; background-color: #2f3f9f; padding: 9.5px 31.35px 12.1px 31.65px; border-radius: 9999px; letter-spacing: 0.5px; }
 
-.footer-newsletter-form { width: 40.127%; justify-content: space-between; display: flex; background-color: #333333; }
+.footer-newsletter-form { width: 40.127%; justify-content: space-between; display: flex; }
+
+/* Footer newsletter */
+
+.footer-widgets { color: white; background-color: #212121; display: flex; flex-direction: column; align-items: center; font-family: 'Open Sans', sans-serif; }
+
+.footer-widgets-container { display: flex; margin-top: 45px; }
+
+.footer-widget-heading { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+
+.footer-widget-flex { display: flex; flex-direction: column; }
+
+/* Pages widget */
+
+.footer-widget-pages { width: 22.9056%; }
+
+/* Pages widget */
+
+/* Newsletter widget */
+
+.footer-widget-newsletter { display: flex; flex-direction: column; }
+
+/* Newsletter widget */
+
+/* Footer nav */
+
+.footer-nav { display: flex; }
+
+.footer-nav-search-lang-container {
+    display: flex;
+}
+
+.footer-nav-search-lang {
+    display: flex;
+}
+
+.footer-search-lang-flex {
+    display: flex;
+}
+
+/* Footer nav */
+
+.footer-widget-twitter { width: 23.589%; }
 
 /* TODO: placeholder 'adress' */
 
