@@ -909,7 +909,9 @@ article:hover {
 .footer-newsletter-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 38px;
+    letter-spacing: 2.45px;
+    word-spacing: 0;
+    font-size: 39.5px;
 }
 
 .footer-newsletter-email {
