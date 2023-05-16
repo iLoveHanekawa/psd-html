@@ -960,9 +960,9 @@ article:hover {
 
 .footer-widget-twitter { width: 23.589%; margin-left: 32px; }
 
-.footer-widget-twitter .footer-widget-heading { margin-bottom: 10px; }
+.footer-widget-twitter .footer-widget-heading { margin-bottom: 9.85px; }
 
-.footer-twitter-flex { font-size: 13px; display: flex; flex-direction: column;padding: 12px 0px 13px 0px; border-bottom: 1px solid #3c3c3c; }
+.footer-twitter-flex { font-size: 13px; display: flex; flex-direction: column;padding: 11.5px 0px 12.85px 0px; border-bottom: 1px solid #3c3c3c; }
 
 .footer-twitter-icon { font-size: 22px; color: #55acee; padding-top: 2.7px; margin-left: 8.5px; margin-right: 16.5px; }
 
@@ -970,11 +970,17 @@ article:hover {
 
 .footer-twitter-bottom-row-item { text-decoration: underline; }
 
-.footer-twitter-body { display: flex; margin: 0; letter-spacing: 1.25px; line-height: 1.6; margin-bottom: 6.5px; }
+.footer-twitter-body { display: flex; margin: 0; letter-spacing: 1.25px; line-height: 1.6; margin-bottom: 6.625px; color: #bdbdbd; }
 
 .footer-twitter-mention { letter-spacing: 0; }
 
-.footer-twitter-bottom-row { font-size: 12px; display: flex; align-items: center; }
+.footer-twitter-bottom-row { color: #909090; font-size: 12px; display: flex; align-items: center; }
+
+.footer-arrow { margin: 0px 10px; }
+
+.footer-twitter-bottom-row-item { margin-left: 15px; }
+
+.footer-tweet-time { letter-spacing: 0.5px; }
 
 .last-tweet { border: none; }
 
