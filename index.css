@@ -934,11 +934,9 @@ article:hover {
 
 .footer-widget-pages .footer-widget-heading { padding-bottom: 19.95px;}
 
-.footer-widget-pages .footer-widget-item { }
-
 .footer-pages-input { display: none; }
 
-.footer-pages-label { font-size: 14px; font-family: 'Montserrat', sans-serif; display: flex; justify-content: space-between; align-items: center; border: 1px solid #bdbdbd; margin-top: 5.55px; font-weight: 700; padding: 9.6px 8.95px 9.45px 13.5px; border-radius: 5px; }
+.footer-pages-label { cursor: pointer; font-size: 14px; font-family: 'Montserrat', sans-serif; display: flex; justify-content: space-between; align-items: center; border: 1px solid #bdbdbd; margin-top: 5.55px; font-weight: 700; padding: 9.6px 8.95px 9.45px 13.5px; border-radius: 5px; }
 
 .footer-pages-nav { display: none; }
 
@@ -954,7 +952,15 @@ article:hover {
 
 .footer-pages-nav-item { padding: 8.45px 0px; color: #747474; letter-spacing: 0.45px; }
 
+.footer-pages-nav-item:hover { color: lightgray; }
+
 /* Pages widget */
+
+/* Twitter widget */
+
+.footer-widget-twitter { width: 23.589%; margin-left: 32px; }
+
+/* Twitter widget */
 
 /* Newsletter widget */
 
@@ -974,7 +980,6 @@ article:hover {
 
 /* Footer nav */
 
-.footer-widget-twitter { width: 23.589%; }
 
 /* TODO: placeholder 'adress' */
 
