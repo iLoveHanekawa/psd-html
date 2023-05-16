@@ -960,6 +960,16 @@ article:hover {
 
 .footer-widget-twitter { width: 23.589%; margin-left: 32px; }
 
+.footer-widget-twitter .footer-widget-heading { margin-bottom: 25.5px; }
+
+.footer-twitter-flex { font-size: 14px; background-color: #333333; display: flex; flex-direction: column; }
+
+.footer-twitter-icon { font-size: 22px; color: #55acee; background-color: red; }
+
+.footer-twitter-mention:hover { text-decoration: underline; color: #55acee; }
+
+.footer-twitter-body { display: flex; }
+
 /* Twitter widget */
 
 /* Newsletter widget */
