@@ -127,9 +127,7 @@ article:hover { transform: scale(1.02); } */
 
 .blog-author-container { padding: 19px 0px 19px 18.75px; font-family: 'Montserrat', sans-serif; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
 .blog-author-left { display: flex; align-items: center; } 
-
 .blog-author-details {padding-left: 5px;} 
-
 .blog-author-name { font-weight: 700; letter-spacing: 0.269px; font-size: 14px; margin-bottom: 8.5px; margin-left: 5px; font-weight: 700; } 
 .blog-author-date { font-size: 12px; color: #8d8c8d; letter-spacing: 0.5px; word-spacing: 0.9px; font-weight: 400; display: flex; margin-left: 4.2px; justify-content: start; align-items: end; gap: 12px; } 
 .mid-top .blog-author-container {padding: 9.72px 0px 9.72px 18.75px;} 
