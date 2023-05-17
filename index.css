@@ -974,7 +974,7 @@ article:hover {
 
 .footer-twitter-icon { font-size: 22px; color: #55acee; padding-top: 2.7px; margin-left: 8.5px; margin-right: 16.5px; }
 
-.footer-twitter-bottom-row-item:hover, .footer-twitter-mention:hover { text-decoration: underline; color: #55acee; }
+.footer-twitter-mention:hover, .footer-twitter-link:hover { text-decoration: underline; color: #55acee; }
 
 .footer-twitter-body { display: flex; margin: 0; letter-spacing: 1.25px; line-height: 1.6; margin-bottom: 7.28px; color: #bdbdbd; }
 
