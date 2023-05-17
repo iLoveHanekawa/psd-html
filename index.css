@@ -1003,6 +1003,22 @@ article:hover {
 
 /* Flicker widget */
 
+.footer-flicker-grid {
+    display: grid;
+    margin-left: 25px;
+    column-gap: 8px;
+    row-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+.footer-flicker-flex .footer-widget-heading {
+    margin-left: 24px;
+    margin-bottom: 26px;
+}
+
+.footer-flicker-grid-item {
+    display: flex;
+}
 
 
 /* Flicker widget */
