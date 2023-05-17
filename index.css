@@ -29,12 +29,16 @@ button {
     font-family: inherit;
 }
 
-h1, h2, h3, h4, pre, p, input, figure {
+h1, h2, h3, h4, pre, p, figure {
     padding: 0;
     margin: 0;
     font-size: inherit;
     font-weight: inherit;
 }
+
+textarea, input { font-family: inherit; font-size: inherit; padding: 0; margin: 0; color: inherit; }
+
+textarea:focus, input:focus { text-decoration: none; outline: none; }
 
 select {
     padding: 0;
@@ -960,9 +964,7 @@ article:hover {
 
 .footer-widget-twitter { width: 23.673%; margin-left: 29px; }
 
-.footer-widget-twitter .footer-widget-item { 
-    padding-left: 3px;
-}
+.footer-widget-twitter .footer-widget-item { padding-left: 3px; }
 
 .footer-widget-twitter .footer-widget-heading { margin-bottom: 12px; padding-left: 3px; }
 
@@ -1003,29 +1005,27 @@ article:hover {
 
 /* Flicker widget */
 
-.footer-flicker-grid {
-    display: grid;
-    margin-left: 25px;
-    column-gap: 8px;
-    row-gap: 8px;
-    grid-template-columns: repeat(3, 1fr);  
-}
+.footer-flicker-grid { display: grid; margin-left: 25px; column-gap: 8px; row-gap: 8px; grid-template-columns: repeat(3, 1fr); }
 
-.footer-flicker-flex .footer-widget-heading {
-    margin-left: 24px;
-    margin-bottom: 26px;
-}
+.footer-flicker-flex .footer-widget-heading { margin-left: 24px; margin-bottom: 26px; }
 
-.footer-flicker-grid-item {
-    display: flex;
-}
-
+.footer-flicker-grid-item { display: flex; }
 
 /* Flicker widget */
 
 /* Newsletter widget */
 
-.footer-widget-newsletter { display: flex; flex-direction: column; }
+.footer-newsletter-flex { width: 22.984%; margin-left: 29px; }
+
+.footer-widget-newsletter { display: flex; flex-direction: column; gap: 10.15px; margin-left: 1px; }
+
+.footer-newsletter-flex .footer-widget-heading { margin-bottom: 27px; }
+
+.footer-widget-newsletter-input, .footer-widget-newsletter-textarea { padding: 12.5px 0px 11.5px 0px; text-indent: 13.5px; font-size: 14px; letter-spacing: 0.8px; background-color: transparent; border: 1px solid #757575; width: 100%; border-radius: 5px; }
+
+.footer-widget-newsletter-textarea { resize: none; height: 113px; padding-bottom: 0px; }
+
+.footer-widget-newsletter-button { padding: 14px; font-family: 'Montserrat', sans-serif; background-color: #2f2f2f; border-radius: 5px; }
 
 /* Newsletter widget */
 
