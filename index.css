@@ -934,19 +934,19 @@ article:hover {
 
 /* Pages widget */
 
-.footer-widget-pages { width: 22.9916%; color: #bdbdbd; margin-left: 1px; }
+.footer-widget-pages { width: 22.9916%; color: #bdbdbd; margin-left: 0.5px; }
 
 .footer-widget-pages .footer-widget-heading { padding-bottom: 19.95px;}
 
 .footer-pages-input { display: none; }
 
-.footer-pages-label { cursor: pointer; font-size: 14px; font-family: 'Montserrat', sans-serif; display: flex; justify-content: space-between; align-items: center; border: 1px solid #bdbdbd; margin-top: 5.55px; font-weight: 700; padding: 9.6px 8.95px 9.45px 13.5px; border-radius: 5px; }
+.footer-pages-label { cursor: pointer; font-size: 14px; font-family: 'Montserrat', sans-serif; display: flex; justify-content: space-between; align-items: center; border: 1px solid #bdbdbd; margin-top: 5.55px; font-weight: 700; padding: 9.6px 8.95px 9.45px 12.5px; border-radius: 5px; }
 
 .footer-pages-nav { display: none; }
 
 .footer-pages-input:checked + .footer-pages-label { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }
 
-.footer-pages-input:checked + .footer-pages-label + .footer-pages-nav { display: flex; flex-direction: column; border-bottom: 1px solid #bdbdbd; border-left: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd; padding: 4.4px 0px 11.3px 13.5px; font-size: 14px; }
+.footer-pages-input:checked + .footer-pages-label + .footer-pages-nav { display: flex; flex-direction: column; border-bottom: 1px solid #bdbdbd; border-left: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd; padding: 4.4px 0px 11.3px 12.5px; font-size: 14px; }
 
 .material-icons-outlined.footer-remove-icon { display: none; }
 
@@ -962,7 +962,7 @@ article:hover {
 
 /* Twitter widget */
 
-.footer-widget-twitter { width: 23.6817%; margin-left: 28px; }
+.footer-widget-twitter { width: 23.6817%; margin-left: 28.5px; }
 
 .footer-widget-twitter .footer-widget-item { padding-left: 3px; }
 
