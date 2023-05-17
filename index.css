@@ -962,7 +962,7 @@ article:hover {
 
 /* Twitter widget */
 
-.footer-widget-twitter { width: 23.673%; margin-left: 29px; }
+.footer-widget-twitter { width: 23.6817%; margin-left: 28.5px; }
 
 .footer-widget-twitter .footer-widget-item { padding-left: 3px; }
 
@@ -1015,17 +1015,17 @@ article:hover {
 
 /* Newsletter widget */
 
-.footer-newsletter-flex { width: 22.984%; margin-left: 29px; }
+.footer-newsletter-flex { width: 23.1%; margin-left: 29px; }
 
 .footer-widget-newsletter { display: flex; flex-direction: column; gap: 10.15px; margin-left: 1px; }
 
 .footer-newsletter-flex .footer-widget-heading { margin-bottom: 27px; }
 
-.footer-widget-newsletter-input, .footer-widget-newsletter-textarea { padding: 12.5px 0px 11.5px 0px; text-indent: 13.5px; font-size: 14px; letter-spacing: 0.8px; background-color: transparent; border: 1px solid #757575; width: 100%; border-radius: 5px; }
+.footer-widget-newsletter-input, .footer-widget-newsletter-textarea { width: 99.35%; padding: 12.5px 0px 11.5px 0px; text-indent: 13.5px; font-size: 14px; letter-spacing: 0.8px; background-color: transparent; border: 1px solid #757575; border-radius: 5px; }
 
-.footer-widget-newsletter-textarea { resize: none; height: 113px; padding-bottom: 0px; }
+.footer-widget-newsletter-textarea { resize: none; height: 106px; padding-bottom: 0px; }
 
-.footer-widget-newsletter-button { padding: 14px; font-family: 'Montserrat', sans-serif; background-color: #2f2f2f; border-radius: 5px; }
+.footer-widget-newsletter-button { padding: 12px 0px 12px 3px; font-size: 13px; font-family: 'Montserrat', sans-serif; background-color: #2f2f2f; border-radius: 5px; }
 
 /* Newsletter widget */
 
